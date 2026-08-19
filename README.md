@@ -1,4 +1,4 @@
-# 🌱 Equipo 0X | Nombre del Curso
+# 🌱 Equipo 08 | Proyecto Integrador
 
 <p align="center">
   <img src="https://img.shields.io/badge/Universidad-Peruana%20Cayetano%20Heredia-1B5E20?style=for-the-badge" alt="Universidad"/>
