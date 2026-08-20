@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Universidad-Peruana%20Cayetano%20Heredia-1B5E20?style=for-the-badge" alt="Universidad"/>
-  <img src="https://img.shields.io/badge/Curso-Nombre%20del%20curso-2E7D32?style=for-the-badge" alt="Curso"/>
-  <img src="https://img.shields.io/badge/Ciclo-202X--1-43A047?style=for-the-badge" alt="Ciclo"/>
+  <img src="https://img.shields.io/badge/Curso-Proyecto%20%20Integrador-2E7D32?style=for-the-badge" alt="Curso"/>
+  <img src="https://img.shields.io/badge/Ciclo-2026--II-43A047?style=for-the-badge" alt="Ciclo"/>
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## 🌍 Sobre Nosotros
 
-Somos el **Equipo 0X** del curso **Nombre del curso 202X-1**, conformado por estudiantes de la **Universidad Peruana Cayetano Heredia**.
+Somos el **Equipo 08** del curso **Proyecto Integrador 2026-II**, conformado por estudiantes de la **Universidad Peruana Cayetano Heredia**.
 
 Nuestro objetivo es aplicar la **metodología de diseño** para identificar problemas, desarrollar propuestas y generar **soluciones innovadoras** con impacto:
 
@@ -46,14 +46,11 @@ Nuestro trabajo se encuentra alineado con los siguientes **Objetivos de Desarrol
 
 <p align="center">
   <img 
-    src="https://github.com/user-attachments/assets/3829718f-51c7-4d00-b262-ef37f178f059"
-    alt="Fotografía del equipo 0X"
-    width="850"
-  />
+    src="https://github.com/user-attachments/assets/2bb98269-a5fc-48a2-8662-4e23b37737f6"
 </p>
 
 <p align="center">
-  <em>Figura 1. Fotografía del Equipo 0X</em>
+  <em>Figura 1. Fotografía del Equipo 08</em>
 </p>
 
 ---
@@ -70,46 +67,46 @@ Nuestro trabajo se encuentra alineado con los siguientes **Objetivos de Desarrol
 
   <tr>
     <td align="center">
-      <img src="/Recursos/Imágenes/integrante1.png" width="90"/>
+      <img src="https://github.com/user-attachments/assets/d21415ff-0bd1-4650-91c1-9dc1854e9d23" width="90"/>
     </td>
-    <td><strong>Nombre 1</strong></td>
+    <td><strong>JHOSSELYN DAYANNA ENRIQUEZ ALIAGA</strong></td>
     <td>👑 Líder del equipo</td>
     <td>Innovación social, sostenibilidad</td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="/Recursos/Imágenes/integrante2.png" width="90"/>
+      <img src="https://github.com/user-attachments/assets/837719fd-53da-4dcf-8f50-0d3458e72f5a" width="90"/>
     </td>
-    <td><strong>Nombre 2</strong></td>
+    <td><strong>ALESSANDRA UGARTE CRUZ</strong></td>
     <td>🔎 Responsable de investigación</td>
     <td>Gestión ambiental, desarrollo comunitario</td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="/Recursos/Imágenes/integrante1.png" width="90"/>
+      <img src="https://github.com/user-attachments/assets/a38109b9-38cf-40e6-aab5-3565ec758022" width="90"/>
     </td>
-    <td><strong>Nombre 3</strong></td>
-    <td>🎨 Diseñador/a</td>
+    <td><strong>PEDRO JHAIR CUEVA TANTALEAN</strong></td>
+    <td>🎨 Diseñador</td>
     <td>Diseño de prototipos, creatividad aplicada</td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="/Recursos/Imágenes/integrante2.png" width="90"/>
+      <img src="https://github.com/user-attachments/assets/a5faa855-258a-4d3f-85a9-64a3c074f1e7" width="90"/>
     </td>
-    <td><strong>Nombre 4</strong></td>
+    <td><strong>JHONATAN JUAN SUASNABAR PANEZ</strong></td>
     <td>📝 Documentación</td>
     <td>Comunicación científica, redacción técnica</td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="/Recursos/Imágenes/integrante1.png" width="90"/>
+      <img src="https://github.com/user-attachments/assets/b30b99a9-16f6-4e67-98f2-4767cbfa029a" width="90"/>
     </td>
-    <td><strong>Nombre 5</strong></td>
-    <td>💻 Programador/a - Modelador/a</td>
+    <td><strong>ANTONY GEAMPIER ZUÑIGA VASQUEZ</strong></td>
+    <td>💻 Programador - Modelador</td>
     <td>Programación, análisis de datos, simulación</td>
   </tr>
 </table>
@@ -138,7 +135,7 @@ Nuestro propósito es combinar **conocimiento, creatividad y tecnología** para 
 
 ## 📌 Resumen
 
-Este repositorio representa el trabajo del **Equipo 0X** durante el curso **Nombre del curso 202X-1**.
+Este repositorio representa el trabajo del **Equipo 08** durante el curso **Proyecto Integrador 2026-II**.
 
 Aquí documentaremos nuestro proceso, aprendizajes, propuestas y resultados, manteniendo como ejes principales:
 
@@ -155,7 +152,7 @@ Aquí documentaremos nuestro proceso, aprendizajes, propuestas y resultados, man
 ## 🎓 Universidad Peruana Cayetano Heredia
 
 <p align="center">
-  <strong>Equipo 0X · Nombre del curso · 202X-1</strong>
+  <strong>Equipo 08 · Proyecto Integrador · 2026-II</strong>
   <br>
   <em>Diseñando soluciones para un futuro sostenible.</em>
 </p>
