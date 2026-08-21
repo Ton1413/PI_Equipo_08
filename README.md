@@ -87,7 +87,8 @@ Nuestro trabajo se guía por tres pilares fundamentales:
 
 - **Sostenibilidad Ambiental**: Nuestras soluciones buscan un equilibrio con el entorno.
 - **Innovación Tecnológica**: Integramos las mejores herramientas tecnológicas disponibles.
-- **Impacto Social Positivo**: Medimos nuestro éxito por el beneficio que aportamos a la sociedad.
+- **Impacto Social Positivo**: Medimos nuestro éxito por el beneficio que aportamos a la sociedad y puebloo
+- .
 
 ---
 
