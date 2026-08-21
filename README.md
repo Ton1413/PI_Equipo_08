@@ -10,7 +10,7 @@
 <p align="center">
   <strong>Carreras de Ingeniería Ambiental, Informática  Industrial</strong>
   <br>
-  <em>Innovación · Tecnología · Sostenibilidad · Impacto Social</em>
+  <em>Innovación · Tecnología · Sostenibilidad · Impacto Social </em>
 </p>
 
 ---
