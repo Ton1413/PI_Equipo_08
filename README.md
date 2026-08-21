@@ -8,7 +8,7 @@
 <h1 align="center">Equipo 08 | Proyecto Integrador</h1>
 
 <p align="center">
-  <strong>Carreras de Ingeniería Ambiental, Informática  Industrial</strong>
+  <strong>Carreras de Ingeniería Ambiental, Informática  Industrial </strong>
   <br>
   <em>Innovación · Tecnología · Sostenibilidad · Impacto Social </em>
 </p>
