@@ -54,7 +54,7 @@ Nuestro trabajo se alinea con los siguientes **Objetivos de Desarrollo Sostenibl
 
 ## Integrantes
 
-| Integrante | Rol | Intereses |
+ | Integrante | Rol | Intereses |
 | :--- | :--- | :--- |
 | <img src="https://github.com/user-attachments/assets/d21415ff-0bd1-4650-91c1-9dc1854e9d23" width="75"/><br>**Jhosselyn Dayanna Enriquez Aliaga** | **Líder del equipo** <br> Coordinación y gestión de proyectos. | Innovación social, sostenibilidad y liderazgo. |
 | <img src="https://github.com/user-attachments/assets/837719fd-53da-4dcf-8f50-0d3458e72f5a" width="75"/><br>**Alessandra Ugarte Cruz** | **Responsable de Investigación** <br> Análisis de contexto y recopilación de información. | Gestión ambiental, desarrollo comunitario y políticas públicas. |
