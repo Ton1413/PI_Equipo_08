@@ -33,16 +33,6 @@
 |  | E | **Costos:** El costo total del prototipo (hardware \+ desarrollo de software) debe mantenerse por debajo de los X soles  para garantizar accesibilidad a PYMES. El costo de producción en serie de la estación RECONEXA debe ser inferior a X soles  por unidad. El uso de la plataforma digital debe ser gratuito para las empresas en su versión básica, con opciones premium para funcionalidades avanzadas | **Z.A** |
 | **10/09/26** | E | **Plazos:**El desarrollo deberá ejecutarse de acuerdo con el cronograma establecido para el proyecto integrador, considerando las etapas de investigación, diseño, selección de componentes, construcción, programación, pruebas y validación**.**  | **Z.A** |
 
-# **2\. Plan de Trabajo**
-
-**Figura 1: Plan de Trabajo**
-
-**![][image1]**
-
-# 
-
-# 
-
 # **Bibliografía**
 
 Lista de Requerimientos
