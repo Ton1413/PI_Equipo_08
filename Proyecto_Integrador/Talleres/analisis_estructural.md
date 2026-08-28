@@ -38,7 +38,7 @@
 ### 1. Tensión (esfuerzo)
 - **Valor máximo:** 7.081 kPa (0.007081 MPa).
 - El acero soporta típicamente ~250 MPa antes de fluir.
-- **Conclusión:** La tensión máxima representa solo el **0.0028% de la capacidad del material**. El margen de seguridad es enorme; no hay ningún riesgo de rotura ni de fluencia bajo esta carga.
+- **Conclusión:** La tensión máxima representa solo el 0.0028% de la capacidad del material. El margen de seguridad es enorme; no hay ningún riesgo de rotura ni de fluencia bajo esta carga.
 
 ### 2. Desplazamiento (deformación)
 - **Conclusión preliminar:** Dado lo bajo de la tensión (0.0028% de la capacidad del acero), se espera un desplazamiento prácticamente imperceptible, del orden de fracciones de milímetro o menos.
@@ -48,7 +48,7 @@
 ## Conclusiones
 - El acero, con su alta rigidez y resistencia, deja un margen de seguridad muy superior al que tendría la misma pieza en PLA.
 - No hay riesgo de fallo por tensión bajo esta carga.
-- Dado el margen tan amplio (0.0028% de uso), **hay espacio considerable para reducir material** (agrandar o multiplicar las perforaciones, reducir espesor) sin comprometer la resistencia.
+- Dado el margen tan amplio (0.0028% de uso), hay espacio considerable para reducir material (agrandar o multiplicar las perforaciones, reducir espesor) sin comprometer la resistencia.
 - El diseño es **seguro y fiable** para la carga especificada de -42 N.
 
 ---
