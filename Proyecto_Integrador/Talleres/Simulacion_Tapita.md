@@ -1,4 +1,4 @@
-# Análisis de Simulación Estructural - Tapita de Caja Eléctrica
+# Análisis de Simulación Estructural - Tapita de Caja Eléctrica - Alesandra Ugarte
 
 ## Descripción del modelo
 
