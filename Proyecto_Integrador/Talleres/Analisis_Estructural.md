@@ -10,7 +10,7 @@
 > * **Cargas aplicadas: 10 N en la cara interna de la ranura (*slot*).**  
 > * **Gravedad: 9.8 m/s² (peso propio de las piezas).**
 
-**![Ubicación de la pieza trabajada - Pilar Vertical Inferior][image1]**
+**![Ubicación de la pieza trabajada - Pilar Vertical Inferior](https://i.postimg.cc/dLxrMn6N/parte1.jpg)**
 
 ## ---
 
@@ -42,14 +42,14 @@
 > * **Valor máximo: 28.1 kPa (0.0281 MPa).**  
 > * **Ubicado en la curvatura inferior de la ranura.**
 
-**![Simulación FEA Von Mises - Modelo 1][image2]**
+**![Simulación FEA Von Mises - Modelo 1](https://i.postimg.cc/QHy1LSmn/parte2.jpg)**
 
 #### **Modelo 2 (Encaje superior \- Hembra)**
 
 > * **Valor máximo: 25.4 kPa (0.0254 MPa).**  
 > * **Ubicado cerca de la base empotrada.**
 
-**![Simulación FEA Von Mises - Modelo 2][image3]**
+**![Simulación FEA Von Mises - Modelo 2](https://i.postimg.cc/mt5CxVjm/parte3.jpg)**
 
 ### ---
 
