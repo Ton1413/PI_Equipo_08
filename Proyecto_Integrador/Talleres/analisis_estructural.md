@@ -3,7 +3,7 @@
 <img width="552" height="556" alt="Caja electronica" src="https://github.com/user-attachments/assets/d5a6ccdd-2a62-46dc-a55a-008844526ab2" />
 
 ## Descripción del modelo
-<img width="1087" height="742" alt="Captura de pantalla 2026-08-27 224755" src="https://github.com/user-attachments/assets/0db3ad37-2b9e-4d17-afde-18c3c68c52f9" />
+<img width="1896" height="860" alt="caja" src="https://github.com/user-attachments/assets/dbaa0f28-902b-41f4-8a8f-51ce1be0262c" />
 
 - Pieza tipo **caja electrónica** (pared con rejilla de agujeros de ventilación y base horizontal doblada).
 - Contiene: ESP32, HX711, fuente de alimentación y conexiones.
