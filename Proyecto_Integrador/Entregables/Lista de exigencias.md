@@ -50,10 +50,10 @@ Lista de Requerimientos
 11. A. M. Pegado et al., "Industry modular operating system: A framework for collaborative manufacturing," *IEEE Access*, vol. 13, 2025.
 12. Quatra, "Quatra galardonada con la CircLean Label de Sostenibilidad," 15 de marzo de 2026.
 13. R. S. Saputra, Juwari, and M. Y. Asyhari, "Prototype Smart Waste Exchange untuk penukaran botol plastik berbasis Internet of Things dengan ESP32," *Prosiding Seminar Nasional Informatika*, vol. 3, pp. 540–551, 2025.
-14. **[24]** J. L. Pua Castro, S. V. Zabala Calderón, Á. A. Rodríguez Aya, y R. H. Polanco Contreras, "Diseño de un prototipo basado en IoT para la medición de residuos orgánicos aprovechables en unidades habitacionales," *Publicaciones e Investigación*, vol. 16, no. Extra 4, 2022. [Enlace](https://dialnet.unirioja.es/ejemplar/626061)
-15. **[26]** "Autonomous knowledge-based smart waste collection system," US20240211898A1, 2024. [Enlace](https://patents.google.com/patent/US20240211898A1/en)
-16. **[27]** Empresas por el Clima, "Byproductplace: plataforma de intercambio de subproductos y residuos," s. f. [Enlace](https://empresasporelclima.es/actualidad/4722-plataforma-de-intercambio-de-subproductos-y-residuos)
-17. **[28]** Eurofins Environment, "Qué es la plataforma eSIR para el traslado de residuos," 2025. [Enlace](https://www.eurofins-environment.es/es/esir-plataforma-residuos/)
+14. J. L. Pua Castro, S. V. Zabala Calderón, Á. A. Rodríguez Aya, y R. H. Polanco Contreras, "Diseño de un prototipo basado en IoT para la medición de residuos orgánicos aprovechables en unidades habitacionales," *Publicaciones e Investigación*, vol. 16, no. Extra 4, 2022. [Enlace](https://dialnet.unirioja.es/ejemplar/626061)
+15. "Autonomous knowledge-based smart waste collection system," US20240211898A1, 2024. [Enlace](https://patents.google.com/patent/US20240211898A1/en)
+16. Empresas por el Clima, "Byproductplace: plataforma de intercambio de subproductos y residuos," s. f. [Enlace](https://empresasporelclima.es/actualidad/4722-plataforma-de-intercambio-de-subproductos-y-residuos)
+    17.Eurofins Environment, "Qué es la plataforma eSIR para el traslado de residuos," 2025. [Enlace](https://www.eurofins-environment.es/es/esir-plataforma-residuos/)
 
 **PATENTES**  
 \[1\] H. Kim and J. Yoo, “Recyclable waste collection device with AI camera and sorting robot,” KR102453849B1, Oct. 14, 2022\. \[En línea\]. Disponible en: [Google Patents](https://patents.google.com/patent/KR102453849B1/en?utm_source=chatgpt.com)   
