@@ -1,7 +1,7 @@
 
 **PROYECTO:** SISTEMA DE SELECCIÓN Y REDISTRIBUCIÓN DE RESIDUOS (RECONEXA)
 **Cliente:** Universidad Peruana Cayetano Heredia
-**Edición:** Rev. 3 (corregida) — Fecha de corrección: 31/08/2026
+**Edición:** Rev. 3 — Fecha de corrección: 31/08/2026
 **Elaborado:** E.J, U.A, C.P, S.J, Z.A
 
 | Fecha | D/E | Deseo o Exigencia | Descripción | Responsable |
