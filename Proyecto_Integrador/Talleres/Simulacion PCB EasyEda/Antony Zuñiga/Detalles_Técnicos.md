@@ -1,4 +1,4 @@
-# Diseño electrónico del sistema de monitoreo y detección
+# Diseño electrónico
 
 ## 1. Importancia del circuito
 
