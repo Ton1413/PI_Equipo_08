@@ -1,0 +1,24 @@
+# PCB Design: ESP32 DevKit V1 + DHT22 Sensor
+
+Este repositorio contiene los archivos de diseño, esquemáticos y archivos de fabricación (Gerber) para un módulo PCB que integra una tarjeta de desarrollo **ESP32 DevKit V1 (30 pines)** con un sensor de temperatura y humedad **DHT22**.
+
+##  Descripción del Proyecto
+
+El circuito está diseñado para realizar lecturas de temperatura y humedad ambiental utilizando el sensor DHT22 y enviarlas mediante el microcontrolador ESP32. Incluye una resistencia de *pull-up* entre la línea de datos y la alimentación para garantizar la estabilidad de la señal del sensor.
+
+### Componentes Principales
+* **ESP32 DevKit V1 (30 Pines)**: Microcontrolador principal con conectividad Wi-Fi/Bluetooth.
+* **Sensor DHT22 (AM2302)**: Sensor digital de temperatura y humedad relative.
+* **Resistencia R2 (10kΩ)**: Resistencia de pull-up conectada entre `DATA` y `VCC`.
+
+---
+
+## Conexiones del Esquema (Pinout)
+
+| Componente | Pin Sensor DHT22 | Pin ESP32 DevKit V1 | Notas |
+| :--- | :--- | :--- | :--- |
+| **Alimentación** | Pin 1 (VCC) | Pin 30 (3.3V) | Alimentación principal del sensor |
+| **Línea de Datos**| Pin 2 (DATA) | Pin 6 (D32) / GPIO32 | Conectado también a R2 (10kΩ) a 3.3V |
+| **Sin Conexión** | Pin 3 (NC) | - | No conectado |
+| **Tierra** | Pin 4 (GND) | Pin 29 (GND) | Tierra común del sistema |
+
