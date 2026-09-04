@@ -4,8 +4,6 @@
 
 Este circuito permite medir la temperatura y humedad del entorno durante el funcionamiento del proyecto. Estas variables pueden influir en la conductividad, corrosión y estabilidad de las mediciones realizadas sobre materiales como cobre, latón y aluminio.
 
-> **Nota:** El DHT22 no detecta metales directamente. Su función es registrar las condiciones ambientales y complementar las mediciones de los sensores principales.
-
 ## 2. Componentes utilizados
 
 | Componente | Función |
