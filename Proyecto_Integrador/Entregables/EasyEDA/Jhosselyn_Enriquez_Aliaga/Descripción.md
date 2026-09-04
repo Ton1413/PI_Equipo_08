@@ -73,8 +73,6 @@ El DHT22 mide la temperatura y humedad del entorno y envía estos datos al ESP32
 
 El ESP32 puede procesar esta información junto con las mediciones obtenidas por los sensores principales. Esto permite determinar si las condiciones ambientales están afectando el análisis de materiales como cobre, latón y aluminio.
 
-> **Aclaración técnica:** El aluminio no se clasifica normalmente como un metal pesado y el latón es una aleación formada principalmente por cobre y zinc. Para identificar estos materiales se necesitan sensores adicionales; el DHT22 solamente proporciona información ambiental complementaria.
-
 ## 7. Conclusión
 
 El esquemático establece las conexiones eléctricas, la PCB organiza físicamente el circuito y el modelo 3D permite comprobar el montaje antes de su fabricación.
