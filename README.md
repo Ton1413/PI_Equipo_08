@@ -31,16 +31,19 @@ Creemos firmemente que la colaboración y el intercambio de conocimientos son la
 
 ## Objetivos de Desarrollo Sostenible
 
-Nuestro trabajo se alinea con los siguientes **Objetivos de Desarrollo Sostenible (ODS)**, que guían nuestras acciones y nos conectan con una agenda global de cambio:
+El proyecto se relaciona principalmente con los siguientes Objetivos de Desarrollo Sostenible:
 
-| ODS | Objetivo | Enfoque del Proyecto |
+| ODS | Objetivo | Relación con el proyecto |
 | :---: | :--- | :--- |
-| **6** | **Agua Limpia y Saneamiento** | Abordar la gestión sostenible del agua y el acceso a servicios básicos. |
-| **7** | **Energía Asequible y No Contaminante** | Promover el acceso a fuentes de energía sostenibles y eficientes. |
-| **11** | **Ciudades y Comunidades Sostenibles** | Diseñar soluciones para entornos urbanos más habitables y seguros. |
-| **13** | **Acción por el Clima** | Contribuir a la mitigación y adaptación frente al cambio climático. |
+| **ODS 12** | **Producción y consumo responsables** | Promueve la caracterización, reutilización y aprovechamiento de residuos industriales como materias primas secundarias, contribuyendo a reducir su eliminación. |
+| **ODS 9** | **Industria, innovación e infraestructura** | Integra sensores, procesamiento electrónico, conectividad IoT y una plataforma digital para mejorar la gestión y el intercambio de residuos entre empresas. |
+| **ODS 13** | **Acción por el clima** | La reutilización de materiales puede disminuir la extracción de materias primas, el consumo energético y las emisiones asociadas con la fabricación de nuevos productos. |
 
----
+### ODS principal
+
+El **ODS 12: Producción y consumo responsables** constituye el eje principal de RECONEXA, debido a que el proyecto busca convertir residuos industriales potencialmente aprovechables en recursos para otros procesos productivos. Para ello, el sistema recopila datos como peso, volumen, humedad e imagen del material y registra la información en una plataforma digital.
+
+De manera complementaria, el proyecto contribuye al **ODS 9** mediante la aplicación de tecnologías de medición, procesamiento y comunicación, y al **ODS 13** al favorecer prácticas de economía circular que pueden reducir el impacto ambiental de la producción industrial.
 
 ## Nuestro Equipo
 
@@ -96,7 +99,7 @@ Nuestro trabajo se guía por tres pilares fundamentales:
 
 *   **Fase Actual**: Investigación y Definición.
 *   **Próximos Pasos**: Sesiones de ideación y creación de prototipos iniciales.
-*   **Hito más reciente**: En proseso ... 
+*   **Hito más reciente**: En proceso... 
 
 ---
 
