@@ -98,13 +98,6 @@ El elemento innovador se encuentra en la **integración de tres procesos dentro 
 3. **Conexión entre empresas:** identificación de posibles usuarios del residuo dentro de un modelo de simbiosis industrial.
 
 RECONEXA busca reducir la incertidumbre sobre los residuos disponibles y facilitar que una empresa generadora pueda relacionarse con otra que necesite esos materiales.
-
-### Valor diferencial
-
-> RECONEXA combina caracterización física, registro digital y búsqueda de oportunidades de aprovechamiento en un solo sistema orientado a pequeñas y medianas empresas.
-
-A diferencia de un registro manual, la propuesta obtiene parte de la información directamente mediante sensores. Asimismo, a diferencia de una estación de medición aislada, los resultados se incorporan a una plataforma que facilita su consulta y posible redistribución.
-
 ---
 
 ## Funcionamiento general
