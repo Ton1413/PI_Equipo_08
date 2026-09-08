@@ -33,7 +33,6 @@ El sistema busca registrar propiedades como:
 
 - Peso.
 - Volumen estimado.
-- Condiciones de humedad y temperatura.
 - Imagen de la muestra.
 - Tipo probable de material.
 - Información del generador del residuo.
@@ -74,7 +73,6 @@ La estación recibe una muestra y recopila información mediante diferentes elem
 - Celda de carga para medir el peso.
 - Sensor de distancia para estimar el volumen.
 - Cámara para registrar las características visuales.
-- Sensor ambiental para registrar temperatura y humedad.
 - Sistema electrónico para adquirir y procesar las señales.
 - Indicadores visuales o auditivos para comunicar el estado del proceso.
 
