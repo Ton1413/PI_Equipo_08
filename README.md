@@ -5,108 +5,261 @@
   <img src="https://img.shields.io/badge/Estado-En%20Desarrollo-FFA000?style=for-the-badge&logo=statuspage&logoColor=white" alt="Estado"/>
 </p>
 
-<h1 align="center">Equipo 08 | Proyecto Integrador</h1>
+<h1 align="center">RECONEXA</h1>
+
+<h3 align="center">
+Sistema de caracterización y redistribución de residuos industriales
+</h3>
 
 <p align="center">
-  <strong>Carreras de Ingeniería Ambiental, Informática  Industrial </strong>
+  <strong>Equipo 08 | Proyecto Integrador 2026-II</strong>
   <br>
-  <em>Innovación · Tecnología · Sostenibilidad · Impacto Social </em>
+  Universidad Peruana Cayetano Heredia
+</p>
+
+<p align="center">
+  <em>Caracterización de residuos · Economía circular · IoT · Simbiosis industrial</em>
 </p>
 
 ---
 
-## Sobre Nosotros
+## Sobre el proyecto
 
-Somos el **Equipo 08** del curso **Proyecto Integrador 2026-II**, un grupo multidisciplinario de la **Universidad Peruana Cayetano Heredia**. Nuestra formación en las carreras de Ingeniería Ambiental, Informática e Industrial nos permite abordar los desafíos desde una perspectiva integral.
+**RECONEXA** es una propuesta tecnológica orientada a la caracterización preliminar y redistribución de residuos industriales potencialmente aprovechables.
 
-Nuestro propósito es aplicar la **metodología de diseño** para identificar problemas en nuestro entorno y desarrollar **soluciones innovadoras** que generen un impacto positivo en los ámbitos:
+El proyecto integra una estación física de medición con una plataforma digital. La estación recopila información de la muestra mediante sensores y una cámara, mientras que la plataforma almacena los resultados y facilita la identificación de empresas que podrían utilizar el residuo como materia prima secundaria.
 
-- **Ambiental**: Promoviendo la sostenibilidad y el cuidado de los recursos.
-- **Tecnológico**: Integrando herramientas digitales para potenciar nuestras propuestas.
-- **Social**: Creando valor y mejorando la calidad de vida de las comunidades.
+El sistema busca registrar propiedades como:
 
-Creemos firmemente que la colaboración y el intercambio de conocimientos son la clave para construir un futuro más resiliente y equitativo.
+- Peso.
+- Volumen estimado.
+- Condiciones de humedad y temperatura.
+- Imagen de la muestra.
+- Tipo probable de material.
+- Información del generador del residuo.
+
+La caracterización realizada por RECONEXA es preliminar. El sistema no reemplaza un análisis químico de laboratorio cuando sea necesario determinar la composición exacta o peligrosidad del residuo.
+
+---
+
+## Problemática
+
+En distintas actividades industriales se generan residuos que todavía podrían aprovecharse como insumos para otros procesos productivos. Sin embargo, una parte de estos materiales termina almacenada, eliminada o comercializada sin información técnica suficiente.
+
+Las empresas generadoras no siempre cuentan con herramientas accesibles para registrar las características de sus residuos. Al mismo tiempo, las empresas interesadas en emplear materias primas secundarias desconocen aspectos como:
+
+- Qué materiales están disponibles.
+- En qué cantidad se encuentran.
+- Cuáles son sus características físicas.
+- Dónde se generan.
+- Con qué frecuencia están disponibles.
+- Si podrían ser compatibles con sus procesos productivos.
+
+Esta falta de información dificulta el intercambio de materiales entre empresas y limita el desarrollo de iniciativas de economía circular y simbiosis industrial.
+
+### Problema central
+
+> Los residuos industriales potencialmente aprovechables no siempre cuentan con una caracterización básica ni con un medio digital que permita relacionarlos con empresas interesadas en utilizarlos como materias primas secundarias.
+
+---
+
+## Propuesta de solución
+
+RECONEXA propone integrar dos componentes principales:
+
+### 1. Estación de caracterización
+
+La estación recibe una muestra y recopila información mediante diferentes elementos de medición:
+
+- Celda de carga para medir el peso.
+- Sensor de distancia para estimar el volumen.
+- Cámara para registrar las características visuales.
+- Sensor ambiental para registrar temperatura y humedad.
+- Sistema electrónico para adquirir y procesar las señales.
+- Indicadores visuales o auditivos para comunicar el estado del proceso.
+
+### 2. Plataforma digital
+
+La plataforma recibe la información generada por la estación y permite:
+
+- Registrar los residuos caracterizados.
+- Almacenar los resultados de las mediciones.
+- Mostrar la información mediante un dashboard.
+- Consultar materiales disponibles.
+- Relacionar residuos con posibles empresas receptoras.
+- Enviar notificaciones sobre oportunidades de aprovechamiento.
+
+De esta manera, RECONEXA busca transformar un residuo con información limitada en un recurso registrado y potencialmente aprovechable.
+
+---
+
+## ¿Dónde está la innovación?
+
+La innovación de RECONEXA no consiste únicamente en utilizar sensores o una cámara, ya que estos componentes existen de manera independiente.
+
+El elemento innovador se encuentra en la **integración de tres procesos dentro de una misma propuesta**:
+
+1. **Caracterización física del residuo:** recopilación de peso, volumen e imagen.
+
+2. **Digitalización de la información:** registro y almacenamiento de los datos obtenidos para facilitar su consulta y trazabilidad.
+
+3. **Conexión entre empresas:** identificación de posibles usuarios del residuo dentro de un modelo de simbiosis industrial.
+
+RECONEXA busca reducir la incertidumbre sobre los residuos disponibles y facilitar que una empresa generadora pueda relacionarse con otra que necesite esos materiales.
+
+### Valor diferencial
+
+> RECONEXA combina caracterización física, registro digital y búsqueda de oportunidades de aprovechamiento en un solo sistema orientado a pequeñas y medianas empresas.
+
+A diferencia de un registro manual, la propuesta obtiene parte de la información directamente mediante sensores. Asimismo, a diferencia de una estación de medición aislada, los resultados se incorporan a una plataforma que facilita su consulta y posible redistribución.
+
+---
+
+## Funcionamiento general
+
+El funcionamiento propuesto comprende las siguientes etapas:
+
+1. El usuario registra la muestra.
+2. La muestra se coloca en la estación.
+3. El usuario inicia el ciclo de medición.
+4. Los sensores recopilan información física y ambiental.
+5. La cámara captura una imagen.
+6. El sistema procesa y organiza los datos.
+7. La información se envía a la plataforma.
+8. La plataforma registra la muestra y genera una clasificación preliminar.
+9. El usuario visualiza los resultados.
+10. El sistema busca posibles empresas interesadas en el material.
+
+---
+
+## Alcance inicial
+
+El prototipo se orienta inicialmente a la caracterización de muestras metálicas, como:
+
+- Cobre.
+- Aluminio.
+- Latón.
+
+El latón es una aleación formada principalmente por cobre y zinc. Por esta razón, es más preciso referirse al proyecto como un sistema para caracterizar **muestras o residuos metálicos** y no como un detector de metales pesados.
+
+La clasificación combinará diferentes características de la muestra. La imagen no se utilizará como único criterio, ya que materiales distintos pueden presentar apariencias similares.
+
+---
+
+## Objetivo general
+
+Desarrollar un prototipo que permita caracterizar preliminarmente residuos industriales y registrar sus datos en una plataforma digital, con la finalidad de facilitar su aprovechamiento como materias primas secundarias entre empresas.
+
+---
+
+## Objetivos específicos
+
+- Diseñar una estación para recibir y posicionar las muestras.
+- Integrar sensores para medir propiedades físicas.
+- Incorporar una cámara para registrar las características visuales.
+- Procesar las señales mediante un sistema electrónico.
+- Registrar digitalmente las mediciones obtenidas.
+- Mostrar los resultados en una interfaz local o remota.
+- Proponer un mecanismo para relacionar residuos con empresas interesadas.
 
 ---
 
 ## Objetivos de Desarrollo Sostenible
 
-El proyecto se relaciona principalmente con los siguientes Objetivos de Desarrollo Sostenible:
+RECONEXA se relaciona principalmente con los siguientes Objetivos de Desarrollo Sostenible:
 
-| ODS | Objetivo | Relación con el proyecto |
+| ODS | Objetivo | Relación con RECONEXA |
 | :---: | :--- | :--- |
-| **ODS 12** | **Producción y consumo responsables** | Promueve la caracterización, reutilización y aprovechamiento de residuos industriales como materias primas secundarias, contribuyendo a reducir su eliminación. |
-| **ODS 9** | **Industria, innovación e infraestructura** | Integra sensores, procesamiento electrónico, conectividad IoT y una plataforma digital para mejorar la gestión y el intercambio de residuos entre empresas. |
-| **ODS 13** | **Acción por el clima** | La reutilización de materiales puede disminuir la extracción de materias primas, el consumo energético y las emisiones asociadas con la fabricación de nuevos productos. |
+| **ODS 12** | **Producción y consumo responsables** | Promueve la caracterización, reutilización y aprovechamiento de residuos industriales como materias primas secundarias. |
+| **ODS 9** | **Industria, innovación e infraestructura** | Integra sensores, electrónica, conectividad IoT y una plataforma digital para mejorar la gestión de residuos industriales. |
+| **ODS 13** | **Acción por el clima** | El aprovechamiento de materiales puede reducir la extracción de materias primas y las emisiones asociadas con la producción de nuevos materiales. |
 
 ### ODS principal
 
-El **ODS 12: Producción y consumo responsables** constituye el eje principal de RECONEXA, debido a que el proyecto busca convertir residuos industriales potencialmente aprovechables en recursos para otros procesos productivos. Para ello, el sistema recopila datos como peso, volumen, humedad e imagen del material y registra la información en una plataforma digital.
+El **ODS 12: Producción y consumo responsables** constituye el eje principal del proyecto, porque RECONEXA busca facilitar que residuos industriales potencialmente aprovechables puedan reincorporarse a otros procesos productivos.
 
-De manera complementaria, el proyecto contribuye al **ODS 9** mediante la aplicación de tecnologías de medición, procesamiento y comunicación, y al **ODS 13** al favorecer prácticas de economía circular que pueden reducir el impacto ambiental de la producción industrial.
+De manera complementaria, el proyecto contribuye al **ODS 9** mediante la aplicación de tecnologías de medición, procesamiento y comunicación. También se relaciona con el **ODS 13**, debido a los posibles beneficios ambientales de la reutilización de materiales.
 
-## Nuestro Equipo
+---
+## Sobre nosotros
+
+Somos el **Equipo 08** del curso **Proyecto Integrador 2026-II** de la Universidad Peruana Cayetano Heredia.
+
+El equipo está conformado por estudiantes de Ingeniería Ambiental, Ingeniería Informática e Ingeniería Industrial. Esta formación multidisciplinaria permite abordar el proyecto desde tres perspectivas:
+
+- **Ambiental:** gestión de residuos, economía circular e impacto ambiental.
+- **Tecnológica:** sensores, procesamiento de datos, software y conectividad.
+- **Industrial:** diseño del sistema, viabilidad, operación y relación entre empresas.
+
+---
+
+## Nuestro equipo
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2bb98269-a5fc-48a2-8662-4e23b37737f6" alt="Fotografía del equipo" width="80%"/>
+  <img src="https://github.com/user-attachments/assets/2bb98269-a5fc-48a2-8662-4e23b37737f6" alt="Fotografía del Equipo 08" width="80%"/>
   <br>
   <em>Figura 1. Equipo 08 en el campus de la Universidad Peruana Cayetano Heredia.</em>
 </p>
 
----
-
-## Integrantes
-
- | Integrante | Rol | Intereses |
+| Integrante | Rol | Responsabilidad principal |
 | :--- | :--- | :--- |
-| <img src="https://github.com/user-attachments/assets/d21415ff-0bd1-4650-91c1-9dc1854e9d23" width="75"/><br>**Jhosselyn Dayanna Enriquez Aliaga** | **Líder del equipo** <br> Coordinación y gestión de proyectos. | Innovación social, sostenibilidad y liderazgo. |
-| <img src="https://github.com/user-attachments/assets/837719fd-53da-4dcf-8f50-0d3458e72f5a" width="75"/><br>**Alessandra Ugarte Cruz** | **Responsable de Investigación** <br> Análisis de contexto y recopilación de información. | Gestión ambiental, desarrollo comunitario y políticas públicas. |
-| <img src="https://github.com/user-attachments/assets/a38109b9-38cf-40e6-aab5-3565ec758022" width="75"/><br>**Pedro Jhair Cueva Tantalean** | **Diseñador** <br> Creación de prototipos y experiencia de usuario. | Diseño de soluciones, creatividad aplicada y usabilidad. |
-| <img src="https://github.com/user-attachments/assets/a5faa855-258a-4d3f-85a9-64a3c074f1e7" width="75"/><br>**Jhonatan Juan Suasnabar Panez** | **Documentación** <br> Redacción técnica y comunicación de resultados. | Comunicación científica, redacción y divulgación. |
-| <img src="https://github.com/user-attachments/assets/b30b99a9-16f6-4e67-98f2-4767cbfa029a" width="75"/><br>**Antony Geampier Zuñiga Vasquez** | **Programador / Modelador** <br> Desarrollo de software y análisis de datos. | Programación, simulación de sistemas y ciencia de datos. |
+| <img src="https://github.com/user-attachments/assets/d21415ff-0bd1-4650-91c1-9dc1854e9d23" width="75"/><br>**Jhosselyn Dayanna Enriquez Aliaga** | **Líder del equipo** | Coordinación, planificación y seguimiento del proyecto. |
+| <img src="https://github.com/user-attachments/assets/837719fd-53da-4dcf-8f50-0d3458e72f5a" width="75"/><br>**Alessandra Ugarte Cruz** | **Responsable de investigación** | Investigación del problema, antecedentes y contexto ambiental. |
+| <img src="https://github.com/user-attachments/assets/a38109b9-38cf-40e6-aab5-3565ec758022" width="75"/><br>**Pedro Jhair Cueva Tantalean** | **Diseñador** | Diseño del prototipo y experiencia de usuario. |
+| <img src="https://github.com/user-attachments/assets/a5faa855-258a-4d3f-85a9-64a3c074f1e7" width="75"/><br>**Jhonatan Juan Suasnabar Panez** | **Responsable de documentación** | Organización y redacción de la documentación técnica. |
+| <img src="https://github.com/user-attachments/assets/b30b99a9-16f6-4e67-98f2-4767cbfa029a" width="75"/><br>**Antony Geampier Zuñiga Vasquez** | **Programador y modelador** | Desarrollo de software, procesamiento de datos y modelado. |
 
 ---
 
-## Enfoque Metodológico
+## Metodología de trabajo
 
-A lo largo del curso, transitamos por las fases de la **metodología de diseño**, transformando desafíos en oportunidades de innovación. Nuestro proceso se estructura de la siguiente manera:
+El proyecto sigue un proceso de diseño compuesto por las siguientes etapas:
 
-1.  **Investigación y Empatía**: Comprendemos a fondo el problema y las necesidades de los usuarios.
-2.  **Definición y Síntesis**: Consolidamos la información para definir el enfoque de nuestra solución.
-3.  **Ideación**: Generamos un amplio espectro de ideas creativas y potenciales soluciones.
-4.  **Prototipado**: Materializamos las ideas en prototipos tangibles para su evaluación.
-5.  **Evaluación y Validación**: Ponemos a prueba nuestras soluciones, recogemos retroalimentación y las iteramos.
-6.  **Solución con Impacto**: Entregamos una propuesta robusta y lista para generar un cambio positivo.
-
-Este ciclo nos permite combinar el **conocimiento técnico** con la **creatividad** y la **visión de futuro**, asegurando que nuestras propuestas sean relevantes y efectivas.
-
----
-
-## Resumen del Proyecto
-
-Este repositorio es el espacio central donde documentamos el progreso, los aprendizajes y los resultados del **Equipo 08** durante el **Proyecto Integrador 2026-II**.
-
-Nuestro trabajo se guía por tres pilares fundamentales:
-
-- **Sostenibilidad Ambiental**: Nuestras soluciones buscan un equilibrio con el entorno.
-- **Innovación Tecnológica**: Integramos las mejores herramientas tecnológicas disponibles.
-- **Impacto Social Positivo**: Medimos nuestro éxito por el beneficio que aportamos a la sociedad y puebloo
-- .
+1. **Investigación:** comprensión del problema y revisión de antecedentes.
+2. **Definición:** identificación de necesidades, usuarios y requisitos.
+3. **Diseño funcional:** elaboración de la caja negra y el esquema de funciones.
+4. **Generación de alternativas:** desarrollo de la matriz morfológica.
+5. **Selección del concepto:** comparación mediante criterios técnicos y económicos.
+6. **Prototipado:** construcción de los módulos mecánicos, electrónicos y digitales.
+7. **Validación:** calibración de sensores y evaluación con muestras conocidas.
+8. **Mejora:** corrección de errores y actualización del prototipo.
 
 ---
 
-## Estado del Proyecto
+## Estado del proyecto
 
-*   **Fase Actual**: Investigación y Definición.
-*   **Próximos Pasos**: Sesiones de ideación y creación de prototipos iniciales.
-*   **Hito más reciente**: En proceso... 
+- **Fase actual:** diseño conceptual y selección de alternativas.
+- **Avances:** caja negra, esquema de funciones, matriz morfológica y diseño electrónico preliminar.
+- **Siguiente etapa:** integración del prototipo y validación de los sensores.
+- **Estado:** en desarrollo.
+
+---
+
+## Resultados esperados
+
+- Obtener mediciones básicas de las muestras.
+- Generar un registro digital por cada residuo caracterizado.
+- Realizar una clasificación preliminar del material.
+- Mostrar los resultados de manera comprensible.
+- Facilitar la búsqueda de posibles empresas interesadas.
+- Evaluar la repetibilidad y precisión del sistema.
+
+---
+
+## Limitaciones iniciales
+
+- El prototipo no determina la composición química exacta.
+- La clasificación depende de la calibración y de las muestras de referencia.
+- La forma, suciedad, oxidación o mezcla de materiales puede afectar los resultados.
+- La conexión con empresas deberá validarse con usuarios reales.
+- Los resultados preliminares deberán confirmarse en laboratorio cuando la aplicación lo requiera.
 
 ---
 
 <p align="center">
   <strong>Equipo 08 · Proyecto Integrador 2026-II</strong>
   <br>
-  <em>Diseñando soluciones para un futuro sostenible.</em>
+  <em>Caracterización y aprovechamiento de residuos para una industria más circular.</em>
 </p>
 
 <p align="center">
