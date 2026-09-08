@@ -58,8 +58,7 @@ Esta falta de información dificulta el intercambio de materiales entre empresas
 
 ### Problema central
 
-> Los residuos industriales potencialmente aprovechables no siempre cuentan con una caracterización básica ni con un medio digital que permita relacionarlos con empresas interesadas en utilizarlos como materias primas secundarias.
-
+Los residuos industriales potencialmente aprovechables no siempre cuentan con una caracterización básica ni con un medio digital que permita relacionarlos con empresas interesadas en utilizarlos como materias primas secundarias.
 ---
 
 ## Propuesta de solución
