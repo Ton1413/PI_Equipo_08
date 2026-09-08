@@ -56,11 +56,6 @@ Las empresas generadoras no siempre cuentan con herramientas accesibles para reg
 
 Esta falta de información dificulta el intercambio de materiales entre empresas y limita el desarrollo de iniciativas de economía circular y simbiosis industrial.
 
-### Problema central
-
-Los residuos industriales potencialmente aprovechables no siempre cuentan con una caracterización básica ni con un medio digital que permita relacionarlos con empresas interesadas en utilizarlos como materias primas secundarias.
----
-
 ## Propuesta de solución
 
 RECONEXA propone integrar dos componentes principales:
