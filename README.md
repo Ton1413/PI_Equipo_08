@@ -196,21 +196,6 @@ El equipo está conformado por estudiantes de Ingeniería Ambiental, Ingeniería
 
 ---
 
-## Metodología de trabajo
-
-El proyecto sigue un proceso de diseño compuesto por las siguientes etapas:
-
-1. **Investigación:** comprensión del problema y revisión de antecedentes.
-2. **Definición:** identificación de necesidades, usuarios y requisitos.
-3. **Diseño funcional:** elaboración de la caja negra y el esquema de funciones.
-4. **Generación de alternativas:** desarrollo de la matriz morfológica.
-5. **Selección del concepto:** comparación mediante criterios técnicos y económicos.
-6. **Prototipado:** construcción de los módulos mecánicos, electrónicos y digitales.
-7. **Validación:** calibración de sensores y evaluación con muestras conocidas.
-8. **Mejora:** corrección de errores y actualización del prototipo.
-
----
-
 ## Estado del proyecto
 
 - **Fase actual:** diseño conceptual y selección de alternativas.
