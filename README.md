@@ -140,11 +140,11 @@ Desarrollar un prototipo que permita caracterizar preliminarmente residuos indus
 RECONEXA se relaciona principalmente con los siguientes Objetivos de Desarrollo Sostenible:
 
 
-| ODS | Objetivo | Relación con RECONEXA |
+| ODS | Objetivo y Meta| Relación con RECONEXA |
 | :---: | :--- | :--- |
-| **<img width="212" height="210" alt="Captura de pantalla 2026-09-09 a la(s) 4 57 03 p  m" src="https://github.com/user-attachments/assets/4f1b1751-e3cb-45ea-9ac7-46bdbae231a1" />** | **Producción y consumo responsables** | Promueve la caracterización, reutilización y aprovechamiento de residuos industriales como materias primas secundarias. |
-| **<img width="212" height="210" alt="Captura de pantalla 2026-09-09 a la(s) 4 56 44 p  m" src="https://github.com/user-attachments/assets/4fad025f-cdba-4a7c-9e0a-63460d0d5339" />** | **Industria, innovación e infraestructura** | Integra sensores, electrónica, conectividad IoT y una plataforma digital para mejorar la gestión de residuos industriales. |
-| **<img width="212" height="210" alt="Captura de pantalla 2026-09-09 a la(s) 4 57 12 p  m" src="https://github.com/user-attachments/assets/2067abd0-3811-4106-83dd-05a098778148" />** | **Acción por el clima** | El aprovechamiento de materiales puede reducir la extracción de materias primas y las emisiones asociadas con la producción de nuevos materiales. |
+| **<img width="212" height="210" alt="Captura de pantalla 2026-09-09 a la(s) 4 57 03 p  m" src="https://github.com/user-attachments/assets/4f1b1751-e3cb-45ea-9ac7-46bdbae231a1" />** | **Producción y consumo responsables** <br><br>• **Meta 12.5:** Reducir la generación de desechos mediante reciclaje y reutilización.<br>• **Meta 12.6:** Alentar a las empresas a adoptar prácticas sostenibles y reportar métricas. | Promueve la caracterización, reutilización y aprovechamiento de residuos industriales como materias primas secundarias. |
+| **<img width="212" height="210" alt="Captura de pantalla 2026-09-09 a la(s) 4 56 44 p  m" src="https://github.com/user-attachments/assets/4fad025f-cdba-4a7c-9e0a-63460d0d5339" />** | **Industria, innovación e infraestructura** <br><br>• **Meta 9.4:** Modernizar la infraestructura e industrias para que sean sostenibles mediante tecnologías eficientes.<br>• **Meta 9.b:** Apoyar el desarrollo tecnológico e innovación nacional. | Integra sensores, electrónica, conectividad IoT y una plataforma digital para mejorar la gestión de residuos industriales. |
+| **<img width="212" height="210" alt="Captura de pantalla 2026-09-09 a la(s) 4 57 12 p  m" src="https://github.com/user-attachments/assets/2067abd0-3811-4106-83dd-05a098778148" />** | **Acción por el clima** <br><br>• **Meta 13.2:** Incorporar medidas relativas al cambio climático en las estrategias y procesos productivos. | El aprovechamiento de materiales puede reducir la extracción de materias primas y las emisiones asociadas con la producción de nuevos materiales. |
 
 ### ODS principal
 
