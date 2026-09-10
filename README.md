@@ -157,6 +157,7 @@ El funcionamiento conceptual de RECONEXA comprende las siguientes etapas:
        alt="Simulación conceptual del funcionamiento de RECONEXA"
        width="90%">
 </p>
+<img width="960" height="540" alt="reconexa_simulacion_conceptual(1)" src="https://github.com/user-attachments/assets/bf2f881e-fd4f-4a1a-a693-ef44482124b8" />
 
 <p align="center">
   <em>
