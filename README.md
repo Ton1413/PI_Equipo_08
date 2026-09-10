@@ -45,10 +45,6 @@ RECONEXA busca registrar características como:
 - Tipo probable de material.
 - Información del generador.
 - Fecha y registro de la caracterización.
-
-> [!IMPORTANT]
-> La caracterización realizada por RECONEXA es **preliminar**. El sistema no reemplaza un análisis químico de laboratorio cuando sea necesario conocer la composición exacta, pureza o peligrosidad de un residuo.
-
 ---
 
 # 🚨 Problemática
