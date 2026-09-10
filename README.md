@@ -150,31 +150,21 @@ El funcionamiento conceptual de RECONEXA comprende las siguientes etapas:
 
 ---
 
-# 🔄 Simulación conceptual del prototipo
-
-La siguiente animación representa de manera simplificada el flujo previsto para el prototipo.
+## 🔄 Simulación del funcionamiento
 
 <p align="center">
-  <img
-    src="assets/reconexa_simulacion_conceptual.gif"
-    alt="Simulación conceptual del funcionamiento de RECONEXA"
-    width="90%"
-  />
+  <img src="assets/reconexa_simulacion.gif"
+       alt="Simulación conceptual del funcionamiento de RECONEXA"
+       width="90%">
 </p>
 
 <p align="center">
   <em>
-    La muestra ingresa a la estación, es caracterizada mediante sensores,
-    los datos son enviados para procesamiento y finalmente se muestra
-    el resultado de clasificación.
+  La muestra ingresa a la estación, es caracterizada mediante sensores,
+  la información es procesada y posteriormente se muestra el resultado
+  de clasificación.
   </em>
 </p>
-
-> [!NOTE]
-> Para que la animación se muestre correctamente en GitHub, guardar el archivo como:
-> `assets/reconexa_simulacion_conceptual.gif`
-
----
 
 # 🧩 Arquitectura del sistema
 
