@@ -7,7 +7,7 @@ Se realizó el diseño de una **tapita para una caja eléctrica**, como parte de
 * **Pieza:** Tapita de caja eléctrica.
 * **Dimensiones principales:** **350 mm × 150 mm**.
 * **Material:** **PLA**.
-* **Función:** Cubrir y proteger los componentes internos de la caja eléctrica.
+* **Función:** Cubrir y proteger los componentes internos de la caja eléctrica de suasniga.
 * **Diseño:** La tapita presenta una geometría rectangular y pequeños orificios destinados a la fijación de la pieza a la estructura.
 * **Análisis:** Simulación estructural mediante el método de elementos finitos.
 
