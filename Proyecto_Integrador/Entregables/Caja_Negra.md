@@ -1,7 +1,8 @@
 # Caja negra del sistema RECONEXA
 
 <p align="center">
-  <img width="1035" height="627" alt="CAJA NEGRA" src="https://github.com/user-attachments/assets/f142057f-1836-4727-9014-f3cb72029236" />
+  <img width="901" height="533" alt="Captura de pantalla 2026-09-10 a la(s) 6 59 48 p  m" src="https://github.com/user-attachments/assets/587bf9f8-16f4-4a0b-b169-7353a100b79a" />
+
 </p>
 
 <p align="center">
