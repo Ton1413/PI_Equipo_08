@@ -102,11 +102,9 @@ Las esquinas fueron redondeadas para eliminar vértices pronunciados, mejorar la
 En la capa superior de serigrafía se colocó la siguiente información:
 
 ```text
-UPCH
-RECONEXA
+UPCH - RECONEXA
 EQUIPO 08
 J. D. ENRIQUEZ
-V1.1
 ```
 
 ### 5.3 Verificación de la PCB
