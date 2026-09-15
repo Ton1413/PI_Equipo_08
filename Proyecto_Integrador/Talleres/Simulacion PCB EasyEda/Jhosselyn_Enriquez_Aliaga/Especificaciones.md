@@ -6,10 +6,6 @@ Este circuito permite medir la temperatura y la humedad del entorno durante el f
 
 Estas condiciones ambientales pueden influir en la estabilidad de algunos sensores y componentes electrónicos. Además, la humedad puede favorecer procesos de corrosión superficial. Por ello, el DHT22 proporciona información complementaria sobre las condiciones en las que se realiza cada evaluación.
 
-> **Importante:** el DHT22 no identifica el tipo de metal. Su función es monitorear las condiciones ambientales que acompañan el proceso de caracterización.
-
----
-
 ## 2. Identificación del diseño
 
 | Campo | Información |
