@@ -22,8 +22,28 @@
 ---
 
 ## Cargas aplicadas
-- **0.20 N (hacia abajo)** → Peso del sensor que va a soportar la pieza.
-- **Gravedad (9.8 m/s²)** → Peso propio de la estructura (la propia barra).
+### 1. Gravedad (peso propio)
+- **Dirección:** vertical descendente.
+- **Vector en SimScale:** (0, 0, -9.81) m/s² (eje Z vertical, positivo hacia arriba).
+- **Justificación:**
+  - Densidad PLA: ρ = 1250 kg/m³
+  - Volumen estimado de la pieza en L: V ≈ 4×10⁻⁵ m³
+  - Masa: m = ρ·V = 0.05 kg
+  - Peso propio: W = m·g = 0.05 × 9.81 = 0.49 N
+
+### 2. Carga puntual (sensor)
+- **Magnitud:** 0.20 N
+- **Dirección:** vertical descendente (-Z)
+- **Punto de aplicación:** centro del brazo horizontal
+- **Justificación:**
+  - Masa del sensor: m ≈ 0.020 kg
+  - Fuerza: F = m·g = 0.020 × 9.81 = 0.1962 N ≈ 0.20 N
+
+### 3. Verificación de esfuerzos
+- Tensión máxima simulada: 1.77 kPa = 0.00177 MPa
+- Resistencia del PLA: ~50 MPa
+- Factor de seguridad: 50 / 0.00177 ≈ 28,249
+- **Conclusión:** la pieza trabaja al 0.0035% de su capacidad.
 
 ---
 
