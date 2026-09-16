@@ -70,9 +70,6 @@ Como cierre, ajusté un modelo de **Mínimos Cuadrados Ordinarios (OLS)** sobre 
 
 En conjunto, estos tres gráficos siguen una secuencia que resume el trabajo: primero entender los datos, luego evaluar si el modelo predice bien, y finalmente interpretar qué está usando el modelo para hacerlo.
 
-## Lo que más me quedó del taller
+## Lo que más me quedó del taller :)
 
 Lo que más resalto de esta práctica es la diferencia entre **predecir bien** e **interpretar bien**. La regresión lineal fue útil para tener una primera aproximación rápida y coeficientes fáciles de leer, pero el árbol de decisión y el análisis de importancia de variables me ayudaron a entender qué factores influían realmente, y el modelo OLS terminó de darle respaldo estadístico a esas conclusiones. Ver los tres enfoques trabajando sobre el mismo problema me dejó más claro que la elección de un modelo no depende solo de qué tan bajo es el error, sino también de qué tanto necesito explicar el resultado.
-
----
-*Trabajo individual — Taller de IA con Python.*
