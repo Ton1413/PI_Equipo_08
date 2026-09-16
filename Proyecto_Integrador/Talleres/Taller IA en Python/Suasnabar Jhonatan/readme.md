@@ -408,6 +408,7 @@ plt.scatter(x=y_test, y=predictions)
 Este gráfico permite comparar directamente lo que ocurrió realmente en los datos con lo que predijo el modelo de regresión lineal.
 
 Mientras más cercanos estén los puntos a una relación diagonal entre ambos valores, más parecidas son las predicciones a los valores reales.
+
 <img width="869" height="674" alt="Captura de pantalla 2026-09-15 a la(s) 9 33 20 p  m" src="https://github.com/user-attachments/assets/67c7d155-117c-4674-b322-c905add14cbb" />
 
 ---
