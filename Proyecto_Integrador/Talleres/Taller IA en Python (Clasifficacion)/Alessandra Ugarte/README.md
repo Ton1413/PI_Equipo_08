@@ -84,7 +84,6 @@ También puede visualizarse directamente en el repositorio.
 5. El análisis permite identificar una tendencia lineal general, pero no explica por sí solo las variaciones diarias del NO₂.
 
 ## 8. Fuente de datos
-
 **U.S. Environmental Protection Agency (EPA), AirData / Air Quality System (AQS).**
 
 * [AirData](https://www.epa.gov/outdoor-air-quality-data)
