@@ -12,8 +12,6 @@ Este proyecto analiza datos diarios de **dióxido de nitrógeno (NO₂)** regist
 * **Estaciones:** 4
 * **Observaciones diarias para la regresión:** 365
 
-> **Nota sobre la consigna:** la consigna original menciona al menos dos años (2022 y 2023). Este repositorio está preparado únicamente para **2022**, porque ese es el conjunto de datos seleccionado para este trabajo.
-
 ## 2. Objetivo
 
 Realizar una regresión lineal para explorar la relación entre el **tiempo** y la **concentración máxima diaria promedio de NO₂** durante 2022.
