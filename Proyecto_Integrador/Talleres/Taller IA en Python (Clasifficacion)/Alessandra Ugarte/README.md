@@ -71,7 +71,7 @@ Por ello, la regresión debe interpretarse como una descripción de la **tendenc
 
 El gráfico de la regresión lineal se encuentra en el archivo:
 
-regresion_NO2_DC_2022.png
+`regresion_NO2_DC_2022.png`
 
 También puede visualizarse directamente en el repositorio.
 
@@ -84,11 +84,13 @@ También puede visualizarse directamente en el repositorio.
 5. El análisis permite identificar una tendencia lineal general, pero no explica por sí solo las variaciones diarias del NO₂.
 
 ## 8. Fuente de datos
+
 **U.S. Environmental Protection Agency (EPA), AirData / Air Quality System (AQS).**
 
 * [AirData](https://www.epa.gov/outdoor-air-quality-data)
 * [Download Daily Data](https://www.epa.gov/outdoor-air-quality-data/download-daily-data)
 * [AQS](https://aqs.epa.gov/aqsweb/)
+
 
 
 
