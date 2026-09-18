@@ -141,15 +141,5 @@ U.S. Environmental Protection Agency (EPA), AirData / Air Quality System (AQS).
 AirData: https://www.epa.gov/outdoor-air-quality-data
 
 Download Daily Data: https://www.epa.gov/outdoor-air-quality-data/download-daily-data
-9. Archivos
 
-Regresion_NO2_District_of_Columbia_2022.ipynb: notebook utilizado en Google Colab.
-
-NO2_DC_2022_promedio_diario.csv: datos diarios procesados.
-
-regresiones_NO2_por_estacion_2022.csv: resultados de regresión por estación.
-
-regresion_NO2_DC_2022.png: gráfico final.
-
-AQS: https://aqs.epa.gov/aqsweb/
 
