@@ -71,7 +71,7 @@ Por ello, la regresión debe interpretarse como una descripción de la **tendenc
 
 El gráfico de la regresión lineal se encuentra en el archivo:
 
-![regresionNO2.png](...)
+regresion_NO2_DC_2022.png
 
 También puede visualizarse directamente en el repositorio.
 
