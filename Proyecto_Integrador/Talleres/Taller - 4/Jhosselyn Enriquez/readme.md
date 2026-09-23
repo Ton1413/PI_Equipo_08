@@ -58,7 +58,7 @@ En `predictions[10]`, el modelo original devuelve **0,9856523** para una reseña
 
 ## 3. Perceptrón
 
-Un perceptrón es una unidad de decisión que recibe entradas numéricas, multiplica cada una por un **peso**, suma un **sesgo** y aplica una **función de activación** al resultado. En forma resumida: `salida = activación(entradas · pesos + sesgo)`. Los pesos determinan la influencia de cada entrada; el sesgo desplaza el umbral de decisión; y la activación transforma la suma en la salida deseada.
+Un perceptrón es una unidad de decisión que recibe entradas numéricas, multiplica cada una por un *peso*, suma un **sesgo** y aplica una *función de activación* al resultado. En forma resumida: `salida = activación(entradas · pesos + sesgo)`. Los pesos determinan la influencia de cada entrada; el sesgo desplaza el umbral de decisión; y la activación transforma la suma en la salida deseada.
 En el ejemplo del notebook, las entradas son **temperatura = 100** y **vibración = 50**, con pesos **[0,5; −0,5]** y sesgo **−30**. La suma ponderada es `100 × 0,5 + 50 × (−0,5) − 30 = −5`. Por eso la función escalón devuelve **0** (sin alerta), mientras que `tanh` devuelve aproximadamente **−0,9999** y también se interpreta como ausencia de alerta. **Es una demostración con valores definidos en el código**, no un modelo entrenado con observaciones reales.
 
 Un perceptrón individual puede resolver decisiones binarias que se separan mediante un límite lineal. El notebook muestra ejemplos de compuertas AND y OR. También ilustra su limitación con XOR: un solo perceptrón no puede separar correctamente ese patrón; se necesita combinar varias neuronas y una capa de salida.
