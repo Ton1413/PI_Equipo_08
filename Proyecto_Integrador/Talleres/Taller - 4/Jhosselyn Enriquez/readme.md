@@ -13,7 +13,9 @@ Se emplea el conjunto TrashNet, que está restringido a dos clases: `glass` (vid
 
 ### Etapas del modelo implementado
 La clase `SimpleCNN` tiene tres capas de convolución, llamadas `Conv2d`. La primera convierte un canal en dieciséis, la segunda de dieciséis a treinta y dos y la tercera de treinta y dos a sesenta y cuatro; emplean filtros 3 × 3. Cada convolución es seguida por `ReLU`, que permite aprender correlaciones no lineales. Se ejecuta `MaxPool2d(2)` tras las dos primeras, lo cual disminuye la mitad las dimensiones en términos espaciales y retiene las respuestas más sobresalientes de cada área. `AdaptiveAvgPool2d((1, 1))` condensa cada uno de los 64 mapas finales en un solo valor. Finalmente, `Flatten` dispone esos valores y `Linear(64, 2)` crea las dos salidas de clasificación.
+
 Se emplea `Adam` con una tasa de aprendizaje de `lr=1e-3` para modificar los parámetros y se recurre a `CrossEntropyLoss` como función de pérdida. `batch_size=128` señala el número de imágenes que se procesan en cada lote. Las `epochs` son las pasadas totales por el conjunto de entrenamiento; en el caso de la CNN inicial, se realizan ocho, y en el caso de la versión con aumento de datos, seis. El código utiliza `cuda` si Colab tiene GPU; de lo contrario, recurre a CPU.
+
 Se registran `train_loss` (error durante el entrenamiento), `val_acc` (proporción de aciertos en validación) y `val_auc` (ROC-AUC, indicador de qué tan bien se ordenan las imágenes de una clase frente a la otra según la puntuación del modelo). Para calcular las predicciones, `softmax` transforma las dos salidas en probabilidades y se aplica un umbral de 0,5 a la probabilidad de plástico. La matriz de confusión permite observar aciertos y errores por clase, algo que la exactitud total no muestra por sí sola.
 
 ### Resultados de la CNN
@@ -42,6 +44,7 @@ El código carga las reseñas con `imdb.load_data(num_words=10000)`: cada reseñ
 ### Arquitectura, entrenamiento y evaluación
 
 Con `models.Sequential()` se añaden dos capas `Dense(16, activation='relu')` y una capa final `Dense(1, activation='sigmoid')`. La salida `sigmoid` da un valor entre 0 y 1 para la clase positiva. El modelo se configura mediante `compile` con optimizador `rmsprop`, pérdida `binary_crossentropy` y métrica `accuracy`. En `fit` se entrenó durante **20 épocas**, con lotes de **512** y un conjunto de validación separado. Finalmente, `evaluate(x_test, y_test)` mide su desempeño en prueba.
+
 El modelo principal obtuvo en prueba una **pérdida de 0,6007** y una **exactitud de 0,8583 (85,83 %)**. Al final del entrenamiento, la exactitud de entrenamiento mostrada en la época 20 fue **0,9987**, frente a **0,8701** en validación. La pérdida de entrenamiento siguió bajando, mientras que la de validación volvió a subir: es evidencia de **sobreajuste**, es decir, el modelo se adapta más a las reseñas usadas para entrenarlo que a reseñas nuevas. Conviene basar la cifra final de prueba en la salida de `model.evaluate`, ya que algunas anotaciones de texto del notebook la redondean de otra manera.
 
 <img width="795" height="696" alt="curva crecimiento" src="https://github.com/user-attachments/assets/6bc3917a-f05f-4959-95e1-5090dd6bde17" />
@@ -60,17 +63,3 @@ En el ejemplo del notebook, las entradas son **temperatura = 100** y **vibració
 
 Un perceptrón individual puede resolver decisiones binarias que se separan mediante un límite lineal. El notebook muestra ejemplos de compuertas AND y OR. También ilustra su limitación con XOR: un solo perceptrón no puede separar correctamente ese patrón; se necesita combinar varias neuronas y una capa de salida.
 Su ventaja es la sencillez: requiere pocas operaciones y permite entender el efecto de entradas, pesos y umbral. Su limitación es que un perceptrón individual no aprende relaciones complejas ni patrones espaciales de una imagen como lo hace una CNN. Además, los pesos del ejemplo se escogieron manualmente; para afirmar que detecta alertas reales habría que definir y validar los criterios con datos.
-
-## 4. Comparación de modelos
-
-| Aspecto | Perceptrón individual | CNN |
-|---|---|---|
-| Datos más adecuados | Pocas entradas numéricas o condiciones binarias. | Imágenes representadas por píxeles. |
-| Complejidad | Baja; combina entradas en una decisión. | Mayor; encadena filtros, activaciones y capas de clasificación. |
-| Patrones que reconoce | Relaciones que puede separar mediante un límite lineal. | Características visuales locales y sus combinaciones. |
-| Uso posible | Alertas sencillas basadas en mediciones. | Clasificación o análisis de fotografías. |
-| Ventaja | Fácil de implementar e interpretar. | Aprovecha la posición y cercanía de los píxeles. |
-| Limitación | No resuelve por sí solo XOR ni reconoce eficazmente estructuras visuales complejas. | Requiere imágenes apropiadas y entrenamiento; su desempeño depende de los datos y del modelo. |
-| Adecuación para imágenes | Baja si se usa como único clasificador de píxeles. | Alta; se diseñó para procesar información espacial. |
-
-Esta comparación describe las **capacidades de cada tipo de modelo**. El notebook sí evalúa CNN con imágenes de residuos, pero no compara una CNN y un perceptrón entrenados sobre el mismo conjunto de imágenes. Tampoco evalúa ninguno de los dos con datos de Compostech.
