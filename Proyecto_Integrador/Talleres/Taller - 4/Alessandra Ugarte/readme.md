@@ -44,6 +44,13 @@ Lo que más me llamó la atención fue entender que una CNN puede analizar imág
 También me pareció interesante Keras porque facilita la creación de modelos de redes neuronales y permite trabajar con diferentes capas sin tener que programar todo desde cero.
 
 Otra cosa que aprendí fue que las gráficas y matrices de resultados ayudan a entender mejor cómo está funcionando un modelo y permiten identificar sus aciertos y errores.
+## **Descripción del proyecto Relacionado con CNN ,Keras y Perceptrón**
 
+El proyecto propone la identificación de tres materiales metálicos: cobre, aluminio y latón, utilizando sensores que permitan reconocer diferentes propiedades físicas de las muestras.
 
+La propuesta se basa principalmente en la adquisición de datos mediante sensores, como el peso y otras características físicas que permitan diferenciar los materiales. Estos datos serán procesados mediante un ESP32 y podrán visualizarse a través de un Dashboard.
+
+Asimismo, se contempla la incorporación de un Bot AI como medio de interacción con el usuario y consulta de la información obtenida por el sistema.
+
+Los conceptos estudiados de perceptrón, CNN y Keras se relacionan como parte de los conocimientos de clasificación y procesamiento de datos vistos durante el curso. Estos conceptos sirven como referencia para analizar posibles aplicaciones de inteligencia artificial en el procesamiento y clasificación de los datos obtenidos.
 
