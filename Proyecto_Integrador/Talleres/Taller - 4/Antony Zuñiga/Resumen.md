@@ -1,4 +1,4 @@
-# Introducción al Aprendizaje Profundo: Entrenamiento, Perceptrón y Separabilidad
+# Taller DEEP LEARNING - RESUMEN
 
 En el estudio del Deep Learning y las redes neuronales artificiales, resulta fundamental comprender tanto el comportamiento dinámico del proceso de aprendizaje como las limitaciones matemáticas de los modelos más simples. A través del análisis de las curvas de pérdida y las fronteras de decisión, es posible diagnosticar el rendimiento de una red y entender por qué arquitecturas más complejas se volvieron indispensables para resolver problemas del mundo real.
 # Perceptrón y Redes Neuronales Convolucionales (CNN)
