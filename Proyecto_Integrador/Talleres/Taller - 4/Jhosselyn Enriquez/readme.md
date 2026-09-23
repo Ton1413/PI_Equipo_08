@@ -49,7 +49,7 @@ El modelo principal obtuvo en prueba una **pérdida de 0,6007** y una **exactitu
 
 <img width="795" height="696" alt="curva crecimiento" src="https://github.com/user-attachments/assets/6bc3917a-f05f-4959-95e1-5090dd6bde17" />
 
-El notebook también entrena una red más pequeña (una capa oculta de cuatro neuronas), otra con regularización L2 y otra con `Dropout(0.5)`. La gráfica comparativa de la red pequeña muestra una subida posterior menos pronunciada de la pérdida de validación que en el modelo original. Estas pruebas ilustran maneras de estudiar el sobreajuste; el notebook no presenta una evaluación en prueba para cada una, así que no corresponde afirmar que alguna superó al modelo original en prueba.
+Se entrena una red más pequeña (una capa oculta de cuatro neuronas), otra con regularización L2 y otra con `Dropout(0.5)`. La gráfica comparativa de la red pequeña muestra una subida posterior menos pronunciada de la pérdida de validación que en el modelo original. Estas pruebas ilustran maneras de estudiar el sobreajuste; el notebook no presenta una evaluación en prueba para cada una, así que no corresponde afirmar que alguna superó al modelo original en prueba.
 
 <img width="970" height="247" alt="código1111114" src="https://github.com/user-attachments/assets/fc228b75-1f0f-42aa-8669-90be391f8ff9" />
 <img width="812" height="782" alt="222222222" src="https://github.com/user-attachments/assets/739d0079-f006-4a8a-825e-1feacf3bec9b" />
