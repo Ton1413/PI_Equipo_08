@@ -148,7 +148,6 @@ Sin embargo, utilizando más de un perceptrón y una capa adicional, sí es posi
 
 
 Me pareció interesante porque permite entender desde un ejemplo sencillo cómo funcionan las decisiones de una neurona artificial y cómo, al combinar varias neuronas, se pueden resolver problemas más complejos.
-
 ---
 
 ## Lo que más me interesó del proyecto
