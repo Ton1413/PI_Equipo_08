@@ -8,6 +8,8 @@ En este trabajo aprendí sobre diferentes tipos de redes neuronales y cómo pued
 
 **Clasificación de imágenes**
 
+![CNN](cnn.png)
+
 La CNN es una red neuronal utilizada principalmente para trabajar con imágenes. En este ejercicio se clasificaron imágenes de **vidrio y plástico**.
 
 Me pareció interesante porque la red puede aprender características de las imágenes y utilizarlas para reconocer a qué categoría pertenece cada una.
@@ -16,6 +18,8 @@ Me pareció interesante porque la red puede aprender características de las im�
 
 **Clasificación de reseñas**
 
+![Keras](keras.png)
+
 Keras es una herramienta que permite crear y entrenar redes neuronales de una manera más sencilla. En el ejercicio se utilizaron reseñas de películas del conjunto IMDB para clasificarlas como positivas o negativas.
 
 Esta parte me ayudó a entender cómo una red puede aprender a partir de datos y luego realizar una clasificación.
@@ -23,6 +27,8 @@ Esta parte me ayudó a entender cómo una red puede aprender a partir de datos y
 ## Perceptrón
 
 **Ejemplo de decisión**
+
+![Perceptrón](perceptron.png)
 
 El perceptrón es un modelo sencillo que utiliza **entradas, pesos y un sesgo** para obtener una respuesta.
 
