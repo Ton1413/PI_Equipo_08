@@ -25,12 +25,11 @@ La imagen muestra parte del código utilizado para construir el modelo con Keras
 Esta parte me ayudó a entender cómo una red puede aprender a partir de datos y luego realizar una clasificación.
 
 ## Perceptrón
-
+El perceptrón es un modelo  que utiliza **entradas, pesos y un sesgo** para obtener una respuesta.
 **Ejemplo de decisión**
 
 ![Perceptrón](perceptron.png)
-
-El perceptrón es un modelo  que utiliza **entradas, pesos y un sesgo** para obtener una respuesta.
+La imagen muestra el código utilizado para definir y hacer funcionar el perceptrón.
 
 En el ejercicio se utilizaron valores de temperatura y vibración para generar una alerta. También se probaron ejemplos con AND, OR y XOR.
 
