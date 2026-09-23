@@ -1,7 +1,6 @@
-# Informe: CNN, Keras y perceptrón
+# TAREA: CNN, Keras y perceptrón
 
 ## Introducción
-
 Se realizaron tres ejercicios vinculados a redes neuronales en el cuaderno. Primero, se clasificaron imágenes de plástico y vidrio utilizando redes neuronales convolucionales (CNN) implementadas en PyTorch. También se utilizó Keras para clasificar como positivas o negativas y finalmente, se probó un perceptrón con valores establecidos manualmente.
 
 ## 1. CNN
