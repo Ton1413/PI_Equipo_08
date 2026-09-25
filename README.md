@@ -18,7 +18,7 @@ Sistema de caracterización y redistribución de residuos industriales
   Universidad Peruana Cayetano Heredia
 </p>
 
-<p align="center
+<p align="center">
   <em>Caracterización de residuos · Economía circular · IoT · Simbiosis industrial</em>
 </p>
 
