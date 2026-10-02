@@ -1,8 +1,7 @@
 <div align="center">
 
-# Taller de Internet de las Cosas (IoT)
-
-## ESP32, sensores, WiFi y plataformas IoT
+<h1>Taller de Internet de las Cosas (IoT)</h1>
+<p><strong>ESP32, sensores, WiFi y plataformas IoT</strong></p>
 
 </div>
 
@@ -28,12 +27,11 @@ Trabajar con un **ESP32** para realizar adquisición de datos, conexión WiFi, e
 - Cuenta/canal en las plataformas IoT utilizadas.
 - Librerías `WiFi.h`, `ThingSpeak.h` y `WebServer.h`, según la actividad.
 
----
 
-# Actividad 01 — Lectura del potenciómetro, promedio y voltaje
+## Actividad 01 — Lectura del potenciómetro, promedio y voltaje
 
 <details>
-<summary> <strong>Ver enunciado</strong></summary>
+<summary><strong>Ver enunciado</strong></summary>
 
 La actividad solicita mejorar el código básico de lectura del potenciómetro mediante un **promediado de los datos** y convertir los valores obtenidos por el ADC a **valores de voltaje**.
 
@@ -42,21 +40,13 @@ La actividad solicita mejorar el código básico de lectura del potenciómetro m
 ### Conexión
 
 | Terminal del potenciómetro | ESP32 |
-|
-
----
-
-|
-
----
-
-|
+|---|---|
 | Extremo | 3.3 V |
 | Otro extremo | GND |
 | Terminal central | GPIO 34 |
 
 <details>
-<summary> <strong>Ver código</strong></summary>
+<summary><strong>Ver código</strong></summary>
 
 ```cpp
 const int potPin = 34;        // Pin del potenciómetro
@@ -99,7 +89,7 @@ void loop() {
 </details>
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 El ESP32 realiza diez lecturas consecutivas del potenciómetro mediante `analogRead()`. Estas lecturas se acumulan en `suma` y posteriormente se dividen entre el número de muestras para obtener el promedio.
 
@@ -115,7 +105,7 @@ El promedio permite obtener una lectura más estable que una única medición.
 
 </details>
 <details>
-<summary> <strong>Resultado</strong></summary>
+<summary><strong>Resultado</strong></summary>
 
 En el monitor serial se muestran dos datos:
 
@@ -126,8 +116,8 @@ El valor cambia al girar el potenciómetro. Un valor ADC cercano a 0 corresponde
 
 ---
 
-<img width="1600" height="1200" alt="act  1 cod" src="https://github.com/user-attachments/assets/f5ee1fe6-8277-4db0-b7f8-ca7a52004509" />
-<img width="1200" height="1600" alt="act  1" src="https://github.com/user-attachments/assets/6cb10ec2-e610-4317-847f-166a2a06046a" />
+<img width="1600" height="1200" alt="Actividad 1 - código" src="https://github.com/user-attachments/assets/f5ee1fe6-8277-4db0-b7f8-ca7a52004509" />
+<img width="1200" height="1600" alt="Actividad 1 - montaje" src="https://github.com/user-attachments/assets/6cb10ec2-e610-4317-847f-166a2a06046a" />
 
 </details>
 
@@ -139,16 +129,18 @@ El valor cambia al girar el potenciómetro. Un valor ADC cercano a 0 corresponde
 **Descripción:**  
 Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
-# Actividad 02 — Conexión WiFi con ESP32
+---
+
+## Actividad 02 — Conexión WiFi con ESP32
 
 <details>
-<summary> <strong>Ver enunciado</strong></summary>
+<summary><strong>Ver enunciado</strong></summary>
 
 La guía solicita crear una red WiFi utilizando un **Smartphone como Hotspot**, conectar el ESP32 a esa red y visualizar en el monitor serial la **dirección IP asignada**.
 
 </details>
 <details>
-<summary> <strong>Ver código</strong></summary>
+<summary><strong>Ver código</strong></summary>
 
 ```cpp
 #include <WiFi.h>
@@ -185,7 +177,7 @@ void loop() {
 </details>
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 Primero se incluye la biblioteca `WiFi.h`, necesaria para manejar la conexión inalámbrica del ESP32.
 
@@ -212,7 +204,7 @@ WiFi conectado correctamente
 Direccion IP del ESP32: 192.168.X.XXX
 ```
 La IP concreta depende de la red creada por el Smartphone, por lo que no se debe inventar un valor específico.
-<img width="1600" height="1200" alt="act 2" src="https://github.com/user-attachments/assets/00ee8635-6534-4623-af6a-12a99472b794" />
+<img width="1600" height="1200" alt="Actividad 2 - conexión WiFi" src="https://github.com/user-attachments/assets/00ee8635-6534-4623-af6a-12a99472b794" />
 
 ---
 
@@ -224,10 +216,12 @@ La IP concreta depende de la red creada por el Smartphone, por lo que no se debe
 **Descripción:**  
 Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
-# Actividad 03 — Envío del potenciómetro a la nube
+---
+
+## Actividad 03 — Envío del potenciómetro a la nube
 
 <details>
-<summary> <strong>Ver enunciado</strong></summary>
+<summary><strong>Ver enunciado</strong></summary>
 
 La guía solicita escribir un código que muestre en tiempo real la variación del **potenciómetro conectado al ESP32** en las siguientes plataformas:
 
@@ -244,25 +238,15 @@ La actividad está planteada explícitamente de esta manera en la guía oficial.
 Se mantiene el potenciómetro conectado al **GPIO 34** y se utilizan diez muestras para obtener un promedio.
 
 | Dato | Descripción |
-|
-
----
-
-|
-
----
-
-|
+|---|---|
 | ADC promedio | Promedio de las diez lecturas |
 | Voltaje | Conversión aproximada del ADC a voltaje |
 | Pin | GPIO 34 |
 
----
-
-## 3.1 ThingSpeak
+### 3.1 ThingSpeak
 
 <details>
-<summary> <strong>Ver código</strong></summary>
+<summary><strong>Ver código</strong></summary>
 
 ```cpp
 #include <WiFi.h>
@@ -344,27 +328,19 @@ void loop() {
 ### Configuración del canal
 
 | Campo | Dato |
-|
-
----
-
-|
-
----
-
-|
+|---|---|
 | Field 1 | ADC promedio |
 | Field 2 | Voltaje estimado (V) |
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 El programa conserva la lógica de la Actividad 01: toma diez muestras, calcula el promedio y convierte el resultado a voltaje. Después utiliza `ThingSpeak.setField()` para colocar los datos en los campos del canal y `ThingSpeak.writeFields()` para enviarlos.
 
 La espera de 15 segundos permite realizar envíos separados al canal.
 
 <details>
-<summary> <strong>Resultado</strong></summary>
+<summary><strong>Resultado</strong></summary>
 
 En ThingSpeak se deben observar las variaciones de:
 
@@ -379,33 +355,21 @@ Al mover el potenciómetro, los valores enviados cambian y las gráficas del can
 
 </details>
 
-## 3.2 Arduino Cloud
+### 3.2 Arduino Cloud
 
 ### Implementación
 
 Arduino Cloud utiliza variables creadas desde la plataforma. Para este ejercicio se pueden crear, por ejemplo:
 
 | Variable | Tipo | Uso |
-|
-
----
-
-|
-
----
-
-|
-
----
-
-|
+|---|---|---|
 | `potValue` | `int` | Lectura ADC |
 | `potVoltage` | `float` | Voltaje estimado |
 
 El archivo `thingProperties.h` es generado por Arduino Cloud a partir de la configuración del dispositivo y las variables.
 
 <details>
-<summary> <strong>Ver código principal</strong></summary>
+<summary><strong>Ver código principal</strong></summary>
 
 ```cpp
 #include "thingProperties.h"
@@ -447,14 +411,14 @@ void loop() {
 </details>
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 `ArduinoCloud.update()` mantiene la comunicación entre el ESP32 y Arduino Cloud. En cada ciclo se actualiza la variable `potValue` con la lectura del potenciómetro y `potVoltage` con la conversión correspondiente.
 
 > **Nota:** la guía oficial proporciona un tutorial de conexión a Arduino Cloud, pero no incluye dentro del documento el contenido completo del archivo generado `thingProperties.h`. Por ello, ese archivo debe ser generado automáticamente desde la cuenta de Arduino Cloud y no se inventa aquí.
 
 <details>
-<summary> <strong>Resultado</strong></summary>
+<summary><strong>Resultado</strong></summary>
 
 El dashboard de Arduino Cloud debe mostrar la variación de las variables `potValue` y `potVoltage` mientras se mueve el potenciómetro.
 
@@ -464,7 +428,7 @@ El dashboard de Arduino Cloud debe mostrar la variación de las variables `potVa
 
 </details>
 
-## 3.3 Ubidots
+### 3.3 Ubidots
 
 ### Implementación
 
@@ -492,8 +456,8 @@ Ubidots
   ↓
 Dashboard
 ```
-<img width="771" height="477" alt="act3" src="https://github.com/user-attachments/assets/06fb406a-e6dc-47d7-add6-9211baee8d5a" />
-<img width="1600" height="1085" alt="act 1, potenciometro" src="https://github.com/user-attachments/assets/e1ea22e4-f89c-42a1-964e-49dd2a5a9e9d" />
+<img width="771" height="477" alt="Actividad 3 - Ubidots" src="https://github.com/user-attachments/assets/06fb406a-e6dc-47d7-add6-9211baee8d5a" />
+<img width="1600" height="1085" alt="Actividad 3 - potenciómetro" src="https://github.com/user-attachments/assets/e1ea22e4-f89c-42a1-964e-49dd2a5a9e9d" />
 
 ---
 
@@ -505,10 +469,12 @@ Dashboard
 **Descripción:**  
 Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
-# Actividad 04 — Sensor del kit Keystudio en la nube
+---
+
+## Actividad 04 — Sensor del kit Keystudio en la nube
 
 <details>
-<summary> <strong>Ver enunciado</strong></summary>
+<summary><strong>Ver enunciado</strong></summary>
 
 La actividad solicita conectar al ESP32 uno de los sensores del kit Keystudio, por ejemplo **LM35 o LDR**, y mostrar en tiempo real su variación en:
 
@@ -534,10 +500,10 @@ Este porcentaje es una normalización de la señal y **no representa una medici�
 
 ---
 
-## 4.1 ThingSpeak
+### 4.1 ThingSpeak
 
 <details>
-<summary> <strong>Ver código</strong></summary>
+<summary><strong>Ver código</strong></summary>
 
 ```cpp
 #include <WiFi.h>
@@ -620,27 +586,19 @@ void loop() {
 ### Configuración del canal
 
 | Campo | Dato |
-|
-
----
-
-|
-
----
-
-|
+|---|---|
 | Field 1 | Lectura promedio del LDR |
 | Field 2 | Porcentaje relativo |
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 El programa toma diez lecturas del LDR y obtiene su promedio. Luego transforma el valor de 0–4095 a una escala porcentual de 0–100 %.
 
 Finalmente, ambos valores se envían a ThingSpeak.
 
 <details>
-<summary> <strong>Resultado</strong></summary>
+<summary><strong>Resultado</strong></summary>
 
 La gráfica de ThingSpeak debe mostrar variaciones cuando cambia la iluminación que recibe el LDR.
 
@@ -652,29 +610,17 @@ En una prueba documentada en el material de referencia aparecen valores como **3
 
 </details>
 
-## 4.2 Arduino Cloud
+### 4.2 Arduino Cloud
 
 ### Variables
 
 | Variable | Tipo | Descripción |
-|
-
----
-
-|
-
----
-
-|
-
----
-
-|
+|---|---|---|
 | `ldrValue` | `int` | Lectura ADC del LDR |
 | `ldrPercent` | `float` | Porcentaje relativo |
 
 <details>
-<summary> <strong>Ver código principal</strong></summary>
+<summary><strong>Ver código principal</strong></summary>
 
 ```cpp
 #include "thingProperties.h"
@@ -716,7 +662,7 @@ void loop() {
 </details>
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 La lectura del LDR se almacena en `ldrValue`. Después se calcula el porcentaje relativo y se almacena en `ldrPercent`. `ArduinoCloud.update()` mantiene sincronizados los datos con la plataforma.
 
@@ -724,12 +670,12 @@ La lectura del LDR se almacena en `ldrValue`. Después se calcula el porcentaje 
 
 </details>
 
-## 4.3 Ubidots
+### 4.3 Ubidots
 
 La guía oficial incluye un tutorial de conexión del ESP32 a Ubidots mediante MQTT. Para completar esta parte deben configurarse las credenciales de la cuenta y la variable del dispositivo.
 
-<img width="575" height="395" alt="act4, curvado" src="https://github.com/user-attachments/assets/cecbd04f-f1dc-4b55-9e3a-e6adf1e1f720" />
-<img width="650" height="572" alt="act4" src="https://github.com/user-attachments/assets/7e7ad228-2bc7-4b95-a2aa-b6b6c468f9d9" />
+<img width="575" height="395" alt="Actividad 4 - resultados" src="https://github.com/user-attachments/assets/cecbd04f-f1dc-4b55-9e3a-e6adf1e1f720" />
+<img width="650" height="572" alt="Actividad 4 - sensor LDR" src="https://github.com/user-attachments/assets/7e7ad228-2bc7-4b95-a2aa-b6b6c468f9d9" />
 
 ---
 
@@ -741,10 +687,12 @@ La guía oficial incluye un tutorial de conexión del ESP32 a Ubidots mediante M
 **Descripción:**  
 Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
-# Actividad 05 — Control de un LED desde la web
+---
+
+## Actividad 05 — Control de un LED desde la web
 
 <details>
-<summary> <strong>Ver enunciado</strong></summary>
+<summary><strong>Ver enunciado</strong></summary>
 
 La guía solicita conectar un LED a uno de los pines digitales del ESP32 y controlar su encendido desde una plataforma web de preferencia.
 
@@ -755,20 +703,12 @@ Para esta implementación se utiliza un **servidor web creado directamente por e
 ### Conexión
 
 | Componente | ESP32 |
-|
-
----
-
-|
-
----
-
-|
+|---|---|
 | Ánodo del LED mediante resistencia | GPIO 23 |
 | Cátodo | GND |
 
 <details>
-<summary> <strong>Ver código</strong></summary>
+<summary><strong>Ver código</strong></summary>
 
 ```cpp
 #include <WiFi.h>
@@ -967,7 +907,7 @@ void loop() {
 </details>
 
 <details>
-<summary> <strong>Explicación</strong></summary>
+<summary><strong>Explicación</strong></summary>
 
 El ESP32 se conecta primero a la red WiFi configurada. Después inicia un servidor web en el puerto 80.
 
@@ -995,8 +935,8 @@ Cuando el usuario presiona uno de los botones, el navegador realiza una solicitu
 
 ---
 
-<img width="647" height="827" alt="act 5" src="https://github.com/user-attachments/assets/dfcc0cb8-42b0-4bc9-8767-c8cd63c6b282" />
-<img width="782" height="586" alt="act 5, dashboard" src="https://github.com/user-attachments/assets/17b4080e-526d-4345-aee0-c9636ced4cc6" />
+<img width="647" height="827" alt="Actividad 5 - control LED" src="https://github.com/user-attachments/assets/dfcc0cb8-42b0-4bc9-8767-c8cd63c6b282" />
+<img width="782" height="586" alt="Actividad 5 - interfaz web" src="https://github.com/user-attachments/assets/17b4080e-526d-4345-aee0-c9636ced4cc6" />
 
 ### Evidencia fotográfica
 
@@ -1006,7 +946,9 @@ Cuando el usuario presiona uno de los botones, el navegador realiza una solicitu
 **Descripción:**  
 Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
-# Conclusiones
+---
+
+## Conclusiones
 
 El taller permitió aplicar los conceptos básicos de IoT mediante la adquisición de señales con un ESP32, su procesamiento y posterior comunicación mediante WiFi.
 
