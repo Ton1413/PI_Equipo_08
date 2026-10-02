@@ -464,14 +464,6 @@ Esto corresponde directamente a la Actividad 04 de la guía oficial.
 
 Para mantener la continuidad con el montaje utilizado, se emplea un **LDR**.
 
-La lectura se realiza mediante el ADC y se calcula un porcentaje relativo:
-
-\[
-\text{Porcentaje} =
-\frac{\text{ADC}}{4095}\times100
-\]
-Este porcentaje es una normalización de la señal y **no representa una medición calibrada en lux**.
-
 ---
 
 ### 4.1 ThingSpeak
