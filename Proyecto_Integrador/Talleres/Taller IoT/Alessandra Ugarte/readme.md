@@ -10,7 +10,7 @@ En este taller trabajé con el **ESP32** para realizar diferentes actividades re
 
 ### Código
 
-![Código Actividad 01](actividad01_codigo.png)
+!![Código Actividad 01](actividad01_codigo.png)
 
 ### Resultado
 
