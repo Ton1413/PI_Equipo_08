@@ -122,9 +122,6 @@ El valor cambia al girar el potenciómetro. Un valor ADC cercano a 0 corresponde
 
 </details>
 
-**Descripción:**  
-Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
-
 ---
 
 ## Actividad 02 — Conexión WiFi con ESP32
@@ -201,11 +198,6 @@ Direccion IP del ESP32: 192.168.X.XXX
 ```
 La IP concreta depende de la red creada por el Smartphone, por lo que no se debe inventar un valor específico.
 <img width="1600" height="1200" alt="Actividad 2 - conexión WiFi" src="https://github.com/user-attachments/assets/00ee8635-6534-4623-af6a-12a99472b794" />
-
----
-
-**Descripción:**  
-Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
 ---
 
@@ -453,11 +445,6 @@ Dashboard
 
 ---
 
-**Descripción:**  
-Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
-
----
-
 ## Actividad 04 — Sensor del kit Keystudio en la nube
 
 <details>
@@ -664,11 +651,6 @@ La guía oficial incluye un tutorial de conexión del ESP32 a Ubidots mediante M
 <img width="575" height="395" alt="Actividad 4 - resultados" src="https://github.com/user-attachments/assets/cecbd04f-f1dc-4b55-9e3a-e6adf1e1f720" />
 
 <img width="650" height="572" alt="Actividad 4 - sensor LDR" src="https://github.com/user-attachments/assets/7e7ad228-2bc7-4b95-a2aa-b6b6c468f9d9" />
-
----
-
-**Descripción:**  
-Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
 ---
 
@@ -921,9 +903,6 @@ Cuando el usuario presiona uno de los botones, el navegador realiza una solicitu
 <img width="647" height="827" alt="Actividad 5 - control LED" src="https://github.com/user-attachments/assets/dfcc0cb8-42b0-4bc9-8767-c8cd63c6b282" />
 
 <img width="782" height="586" alt="Actividad 5 - interfaz web" src="https://github.com/user-attachments/assets/17b4080e-526d-4345-aee0-c9636ced4cc6" />
-
-**Descripción:**  
-Escribe brevemente qué se observa en la fotografía y qué parte del ejercicio demuestra.
 
 ---
 
