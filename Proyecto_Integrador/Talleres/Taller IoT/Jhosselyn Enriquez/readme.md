@@ -117,6 +117,7 @@ El valor cambia al girar el potenciómetro. Un valor ADC cercano a 0 corresponde
 ---
 
 <img width="1600" height="1200" alt="Actividad 1 - código" src="https://github.com/user-attachments/assets/f5ee1fe6-8277-4db0-b7f8-ca7a52004509" />
+
 <img width="1200" height="1600" alt="Actividad 1 - montaje" src="https://github.com/user-attachments/assets/6cb10ec2-e610-4317-847f-166a2a06046a" />
 
 </details>
@@ -447,6 +448,7 @@ Ubidots
 Dashboard
 ```
 <img width="771" height="477" alt="Actividad 3 - Ubidots" src="https://github.com/user-attachments/assets/06fb406a-e6dc-47d7-add6-9211baee8d5a" />
+
 <img width="1600" height="1085" alt="Actividad 3 - potenciómetro" src="https://github.com/user-attachments/assets/e1ea22e4-f89c-42a1-964e-49dd2a5a9e9d" />
 
 ---
@@ -660,6 +662,7 @@ La lectura del LDR se almacena en `ldrValue`. Después se calcula el porcentaje 
 La guía oficial incluye un tutorial de conexión del ESP32 a Ubidots mediante MQTT. Para completar esta parte deben configurarse las credenciales de la cuenta y la variable del dispositivo.
 
 <img width="575" height="395" alt="Actividad 4 - resultados" src="https://github.com/user-attachments/assets/cecbd04f-f1dc-4b55-9e3a-e6adf1e1f720" />
+
 <img width="650" height="572" alt="Actividad 4 - sensor LDR" src="https://github.com/user-attachments/assets/7e7ad228-2bc7-4b95-a2aa-b6b6c468f9d9" />
 
 ---
@@ -916,6 +919,7 @@ Cuando el usuario presiona uno de los botones, el navegador realiza una solicitu
 ---
 
 <img width="647" height="827" alt="Actividad 5 - control LED" src="https://github.com/user-attachments/assets/dfcc0cb8-42b0-4bc9-8767-c8cd63c6b282" />
+
 <img width="782" height="586" alt="Actividad 5 - interfaz web" src="https://github.com/user-attachments/assets/17b4080e-526d-4345-aee0-c9636ced4cc6" />
 
 **Descripción:**  
