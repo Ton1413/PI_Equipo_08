@@ -1,8 +1,8 @@
-# Taller de Internet de las Cosas con ESP32
+# Taller de Internet con ESP32
 
 ## Descripción
 
-En este taller trabajé con el **ESP32** para realizar diferentes actividades relacionadas con Internet de las Cosas (IoT). Aprendí a leer datos de sensores, conectarme a WiFi, enviar información a la nube y controlar un LED desde una página web.
+En este taller trabajé con el **ESP32** para realizar diferentes actividades relacionadas con Internet  (IoT). Aprendí a leer datos de sensores, conectarme a WiFi, enviar información a la nube y controlar un LED desde una página web.
 
 ## Actividad 01 – Lectura del potenciómetro
 
