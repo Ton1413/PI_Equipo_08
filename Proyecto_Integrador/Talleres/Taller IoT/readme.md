@@ -421,7 +421,7 @@ El flujo final desarrollado en Node-RED se muestra a continuación:
 En la imagen se observa que el nodo **MQTT IN**, suscrito al tópico:
 
 ```
-equipo8/sensor/datos
+equipo08/sensor/datos
 ```
 
 se encuentra conectado correctamente al broker, ya que muestra el estado `connected`.
