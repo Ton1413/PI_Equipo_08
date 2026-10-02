@@ -2,8 +2,6 @@
 
 En esta actividad se implementó un sistema de monitoreo utilizando un **ESP32**, un sensor **DHT11**, comunicación mediante **MQTT** y una interfaz gráfica desarrollada en **Node-RED Dashboard**.
 
-La actividad fue adaptada al proyecto **Kartoffelmachine**, utilizando el sensor DHT11 para obtener la temperatura y humedad del ambiente. Estos datos son enviados desde el ESP32 hacia un broker MQTT y posteriormente son recibidos y visualizados desde Node-RED.
-
 Además, se agregó un control mediante MQTT para encender y apagar un LED conectado al ESP32 desde el Dashboard.
 
 ---
@@ -55,20 +53,20 @@ PASSWORD: UPCH2026
 Como nuestro grupo corresponde al **Equipo 8**, se utilizaron los siguientes tópicos:
 
 ```
-equipo8/sensor/datos
-equipo8/actuadores/led
+equipo08/sensor/datos
+equipo08/actuadores/led
 ```
 
 El primer tópico se utiliza para publicar los valores obtenidos por el sensor DHT11.
 
 ```
-equipo8/sensor/datos
+equip0o8/sensor/datos
 ```
 
 El segundo tópico se utiliza para controlar el LED del ESP32 desde Node-RED.
 
 ```
-equipo8/actuadores/led
+equipo08/actuadores/led
 ```
 
 ---
@@ -417,7 +415,8 @@ Finalmente, el flujo quedó formado por:
 
 El flujo final desarrollado en Node-RED se muestra a continuación:
 
-*aaaaagreeeeegaaaa imaaaagennn aquiiiii del los enlaces eso *
+<img width="852" height="422" alt="rama" src="https://github.com/user-attachments/assets/bcca278a-2365-40c1-aee8-bcadb34ae833" />
+
 
 En la imagen se observa que el nodo **MQTT IN**, suscrito al tópico:
 
@@ -449,42 +448,24 @@ En la parte inferior se encuentra el nodo **Switch LED**, que está conectado al
 
 ## 13. Visualización de resultados
 
-Después de realizar la configuración se ingresó al Dashboard de Node-RED.
+Después de realizar la configuración de los nodos y establecer la conexión con el dispositivo ESP32, se ingresó al Dashboard de Node-RED para visualizar en tiempo real los datos obtenidos por el sensor DHT11.
 
-En esta interfaz se pueden observar en tiempo real los datos provenientes del sensor DHT11.
+<img width="1442" height="647" alt="Dashboard" src="https://github.com/user-attachments/assets/1a05c146-d132-4891-8469-d68e206baea0" />
 
-*agrega imagen del dashboard*
+Durante la prueba mostrada en la imagen se registraron aproximadamente los siguientes valores:
 
-Durante la prueba mostrada en la imagen se obtuvieron aproximadamente los siguientes valores:
-
-```
-Temperatura: 24.4 °C
-Humedad: 60 %
+Temperatura: 24.4 °C  
+Humedad: 60 %  
 Dispositivo: ESP32_Equipo8
-```
-
-- **Temperatura:** se mantuvo estable alrededor de 25 °C, con un aumento leve cerca de las 19:37, donde llegó a unos 30 °C, y luego volvió a bajar. ---> editar
-- **Humedad:** tuvo variaciones más marcadas. Llegó al 100 % cerca de las 19:29, bajó hasta aproximadamente 70 % hacia las 19:36, subió de nuevo casi al 100 % a las 19:37 y después descendió progresivamente hasta el 76 % registrado al final. Entre las 19:24 y las 19:28 se observa un tramo sin datos.
-
-En la parte superior del Dashboard se encuentra el interruptor **Control LED**, que en la captura aparece activado, y debajo se muestra el dispositivo que envía los datos (`ESP32_Equipo8`). ---> hasta aqui
-
 
 ---
 
 ## 14. Resultado
 
-Se logró establecer correctamente la comunicación entre:
+Se logró establecer correctamente la comunicación entre los diferentes componentes del sistema:
 
-```
+```text
 ESP32 <-> MQTT <-> Node-RED
-```
-
-El ESP32 logró transmitir con éxito las mediciones captadas por el sensor DHT11, mientras que Node-RED se encargó de recepcionar y desplegar dichos datos a través de indicadores y gráficos interactivos.
-
-Asimismo, fue posible enviar instrucciones desde Node-RED hacia el ESP32 utilizando el protocolo MQTT, lo que permitió controlar el encendido y apagado del LED.
-
-De esta forma, se validó el correcto funcionamiento de la comunicación bidireccional mediante MQTT en el marco del proyecto Kartoffelmachine.
-
 
 
 
