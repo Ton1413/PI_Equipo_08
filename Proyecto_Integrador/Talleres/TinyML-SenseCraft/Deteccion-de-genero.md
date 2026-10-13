@@ -17,7 +17,7 @@
 5. [Configuración de la salida GPIO](#configuración-de-la-salida-gpio)
 6. [Resultados y verificación](#resultados-y-verificación)
 7. [Conclusiones](#conclusiones)
-8. [Estructura del repositorio](#estructura-del-repositorio)
+
 
 ## Objetivo
 
