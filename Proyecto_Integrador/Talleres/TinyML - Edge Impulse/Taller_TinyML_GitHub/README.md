@@ -16,7 +16,6 @@ Los **tres ZIP se encuentran en la carpeta principal del repositorio**, junto a 
 | [mouse_images_50.zip](mouse_images_50.zip) | 50 imágenes JPG | Dataset correspondiente a Mouse |
 | [gg.zip](gg.zip) | Archivo `gg.lite` | Archivo de modelo entregado |
 
-El archivo `gg.lite` se conserva tal como fue entregado. Su presencia no demuestra por sí sola que sea exactamente el modelo ejecutado en las capturas; no se ha realizado aquí una validación de equivalencia ni una ejecución del modelo.
 
 ## 3. Materiales y herramientas
 
@@ -35,10 +34,6 @@ El archivo `gg.lite` se conserva tal como fue entregado. Su presencia no demuest
 | **Total** | **100** | JPG | — |
 
 Las muestras revisadas de botella muestran una botella plástica en diferentes posiciones; las de mouse muestran un ratón de computadora sobre una mesa. La variación de posición permite aportar ejemplos visuales distintos de cada objeto.
-
-**Observación sobre los nombres internos:** ambos ZIP contienen una carpeta llamada `mouse/` y archivos con nombres como `mouse_001.jpg`. En `botella_images_50.zip`, las muestras inspeccionadas corresponden a botellas a pesar de esos nombres. Al preparar el dataset se debe asignar explícitamente la etiqueta **Botella** a ese conjunto y **Mouse** al otro. Conviene extraer cada ZIP en una carpeta separada para evitar sobrescribir archivos con el mismo nombre.
-
-La distribución entre entrenamiento, validación y prueba no aparece en las evidencias adjuntas, por lo que no se atribuye una partición específica al proyecto.
 
 ### Imagen 1. Predicción de la clase Botella
 
@@ -67,8 +62,6 @@ La misma interfaz muestra ahora una puntuación mayor para **Mouse**. Una de las
 | Mouse | 0.99609 | 99.609 % |
 
 También se observan puntuaciones de 98.828 % y 97.266 % para Mouse. Esto evidencia que la salida del clasificador puede favorecer la segunda clase. Los tiempos informados permanecen en 4 ms de DSP y 170 ms de clasificación.
-
-Las capturas muestran la salida del modelo; no incluyen la imagen de cámara del objeto presentado, por lo que por sí solas no permiten verificar la etiqueta real de cada fotograma.
 
 ### Imagen 3. Lecturas adicionales de Botella
 
@@ -128,7 +121,7 @@ La confianza es la puntuación que el modelo asigna a una clase para una entrada
 
 Sin esas etiquetas y resultados completos no se pueden calcular de forma verificable la exactitud, la precisión, el recall ni una matriz de confusión. El valor `Anomaly: 0 ms` es un tiempo mostrado por el programa; no significa una tasa de anomalías de 0 %.
 
-## 7. Estado de las evidencias solicitadas
+## 7. Estado de las evidencias 
 
 | Requisito de la pizarra | Evidencia disponible | Estado |
 |---|---|---|
@@ -139,15 +132,7 @@ Sin esas etiquetas y resultados completos no se pueden calcular de forma verific
 | Edge Impulse: pruebas del paso 6 | Capturas de inferencia en Arduino con un ejemplo de Edge Impulse | Falta captura del paso 6 en la plataforma |
 | SenseCraft: pruebas | No se adjuntó una captura identificable de SenseCraft | Pendiente |
 
-## 8. Organización y subida a GitHub
 
-1. Extraer el paquete de entrega `Taller_TinyML_GitHub.zip`.
-2. Entrar a la carpeta extraída `Taller_TinyML_GitHub`.
-3. Subir **su contenido** a la carpeta principal del repositorio: `README.md`, los tres ZIP y la carpeta `imagenes`.
-4. Mantener los nombres y la estructura para que funcionen los enlaces y las imágenes.
-5. Confirmar los cambios y abrir el README en GitHub para visualizar la entrega.
-
-**Los ZIP `gg.zip`, `botella_images_50.zip` y `mouse_images_50.zip` deben permanecer comprimidos en la raíz del repositorio.** El ZIP exterior es únicamente el paquete de entrega: hay que extraerlo antes de subir su contenido para que GitHub muestre el README y sus imágenes.
 
 ## 9. Conclusiones
 
