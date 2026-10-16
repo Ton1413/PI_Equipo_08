@@ -12,8 +12,6 @@ Usamos dos grupos de imágenes, uno para cada objeto. Los tres archivos ZIP est�
 | [mouse_images_50.zip](mouse_images_50.zip) | 50 imágenes de mouse |
 | [gg.zip](gg.zip) | Modelo entregado en el archivo `gg.lite` |
 
-**Nota:** el ZIP de botellas tiene su carpeta interna llamada `mouse`, pero las muestras revisadas son de botellas. Hay que cargar ese grupo con la etiqueta Botella y extraer los dos datasets por separado.
-
 ## Fotos y resultados del taller
 
 ### 1. Prueba de botella en Arduino
