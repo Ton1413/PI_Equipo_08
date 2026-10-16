@@ -40,17 +40,7 @@ Las muestras revisadas de botella muestran una botella plástica en diferentes p
 
 La distribución entre entrenamiento, validación y prueba no aparece en las evidencias adjuntas, por lo que no se atribuye una partición específica al proyecto.
 
-## 5. Explicación de todas las imágenes
-
-### Imagen 1. Indicaciones del taller
-
-![Indicaciones del taller TinyML en la pizarra](imagenes/01_indicaciones.png)
-
-La pizarra presenta el tema **TinyML – Edge Impulse** y solicita un README con imágenes, datos comprimidos y modelo comprimido. Dentro de la documentación se mencionan el proyecto, el dataset con imágenes y etiquetas, tres pruebas estadísticas, las pruebas de Edge Impulse del paso 6 y las pruebas en SenseCraft. También se indica llevar un cable tipo C a USB.
-
-Esta fotografía sirve como referencia de los requisitos de entrega. Los dos ZIP de imágenes y `gg.zip` se enlazan en la sección de archivos.
-
-### Imagen 2. Predicción de la clase Botella
+### Imagen 1. Predicción de la clase Botella
 
 ![Monitor serie con predicción de botella](imagenes/02_prueba_botella.png)
 
@@ -65,7 +55,7 @@ La clase con mayor puntuación es **Botella**. En otra lectura visible, Botella 
 
 El fragmento de código visible recorre los píxeles, reorganiza los canales de color de BGR a RGB y verifica que el modelo corresponda a un sensor de cámara.
 
-### Imagen 3. Predicción de la clase Mouse
+### Imagen 2. Predicción de la clase Mouse
 
 ![Monitor serie con predicción de mouse](imagenes/03_prueba_mouse.png)
 
@@ -80,7 +70,7 @@ También se observan puntuaciones de 98.828 % y 97.266 % para Mouse. Esto eviden
 
 Las capturas muestran la salida del modelo; no incluyen la imagen de cámara del objeto presentado, por lo que por sí solas no permiten verificar la etiqueta real de cada fotograma.
 
-### Imagen 4. Lecturas adicionales de Botella
+### Imagen 3. Lecturas adicionales de Botella
 
 ![Lecturas adicionales de botella en el monitor serie](imagenes/04_prueba_botella_adicional.png)
 
@@ -94,7 +84,7 @@ Se observa el encabezado del ejemplo de Edge Impulse y nuevas predicciones:
 
 Estas lecturas mantienen Botella como clase dominante, aunque con puntuaciones menores que las de la imagen 2. La captura no permite establecer la causa de esa variación. La posición, el encuadre o la iluminación son variables que pueden estudiarse en pruebas posteriores.
 
-### Imagen 5. Configuración de cámara y salida visible
+### Imagen 4. Configuración de cámara y salida visible
 
 ![Ejemplo CameraWebServer1 abierto y resultados del monitor serie](imagenes/05_configuracion_camara.png)
 
