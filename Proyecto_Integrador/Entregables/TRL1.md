@@ -1,1 +1,94 @@
+# Estado del arte: métodos de caracterización de residuos metálicos
+## 1. Introducción
+
+La caracterización de residuos metálicos permite reunir información útil para decidir cómo separar, almacenar, valorizar o reincorporar un material a otro proceso productivo. Puede incluir propiedades físicas como masa y dimensiones, características visuales y, cuando se necesita conocer la composición elemental o el tipo de aleación, análisis instrumentales especializados. La calidad de la chatarra depende tanto de su composición como de sus características físicas y de la presencia de materiales no deseados \[1\].
+
+En la industria se emplean desde inspecciones visuales y mediciones físicas hasta tecnologías basadas en sensores, espectrometría y visión artificial. Estas técnicas no son equivalentes: algunas detectan presencia metálica o describen la forma, mientras que otras permiten estimar una clase de material o analizar su composición.
+
+RECONEXA propone una caracterización **preliminar** de muestras metálicas: inicialmente cobre, aluminio y latón mediante una estación física y una plataforma digital de registro. No pretende reemplazar el análisis químico de laboratorio, sino organizar información inicial que facilite la consulta de los materiales por potenciales empresas receptoras.
+
+## 2. Métodos actuales de caracterización
+
+### 2.1 Inspección visual y visión artificial
+
+La inspección visual permite observar color, forma, dimensiones aparentes, oxidación, estado superficial y contaminantes visibles. Es accesible y rápida, pero depende de la experiencia del observador. Elcolor por sí solo no confirma la identidad del metal: la iluminación, suciedad, recubrimientos, oxidación y aleaciones pueden cambiar su apariencia.
+
+La visión artificial emplea cámaras y algoritmos para extraer características y, si existe un modelo entrenado, clasificar objetos. Koinig et al. compararon veinte arquitecturas de redes neuronales convolucionales para clasificar chatarra con contenido de cobre a partir de imágenes RGB. Los resultados variaron según la arquitectura y el hardware disponible, mostrando potencial para utilizar cámaras de menor costo como apoyo a la clasificación \[2\]. Otro estudio aplicó visión artificial y aprendizaje automático para detectar elementos no permitidos en una línea de clasificación de chatarra basada en cobre, destacando la necesidad de evaluar el sistema en condiciones próximas a las reales \[3\].
+
+Estos estudios no significan que cualquier cámara identifique por sí sola la composición química. Un modelo de visión debe entrenarse y validarse con muestras representativas. La iluminación, perspectiva, suciedad, oxidación y variedad de aleaciones pueden afectar su desempeño.
+
+### 2.2 Mediciones físicas: masa, dimensiones y volumen estimado
+
+Las mediciones físicas describen la muestra sin determinar necesariamente su composición. Una celda de carga permite medir la masa mediante la señal asociada al peso. Un sensor de distancia puede estimar una dimensión, como la altura de una pieza sobre una plataforma. Si se conocen varias dimensiones y la geometría puede aproximarse a una forma sencilla, es posible estimar el volumen; para piezas irregulares, esa
+estimación requiere supuestos adicionales.
+
+Estas variables son útiles para inventariar materiales y comparar cantidades disponibles. Sin embargo, masa, altura o volumen no identifican de forma única un metal: piezas de distintos materiales pueden compartir dimensiones y masas semejantes. Por tanto, las mediciones físicas son datos complementarios, no una prueba definitiva de identidad.
+
+### 2.3 Sensores inductivos y técnicas electromagnéticas
+
+Los sensores inductivos detectan objetos metálicos mediante la interacción entre un campo electromagnético y el material conductor. En una aplicación de proximidad, la salida indica presencia dentro de un rango de operación; por sí sola, no distingue con certeza entre cobre, aluminio y latón.
+
+Las técnicas más avanzadas basadas en inducción electromagnética pueden aportar información adicional. Williams, O'Toole y Peyton estudiaron la clasificación de chatarra mediante espectroscopia de inducción magnética combinada con visión artificial. Su investigación encontró que combinar información electromagnética y color podía mejorar la separación de ciertos flujos de residuos, aunque el resultado dependía de las características de las muestras \[4\].
+
+Para RECONEXA es esencial distinguir entre **detectar que hay metal** y **estimar qué tipo de metal podría ser**. Un sensor inductivo deproximidad puede apoyar la detección de presencia metálica; una identificación más específica requiere señales discriminantes, calibración y validación con muestras conocidas.
+
+### 2.4 Técnicas instrumentales para identificar composición
+
+Cuando se necesita conocer la composición elemental, pueden utilizarse técnicas como la fluorescencia de rayos X (XRF) y la espectrometría de emisión óptica por plasma inducido por láser (LIBS). Su propósito es
+distinto al de una cámara o un sensor de proximidad.
+
+-   **XRF:** analiza la radiación característica emitida por una muestra  excitada con rayos X y permite estimar la presencia de determinados elementos. Se usa en identificación de aleaciones y clasificación de
+    chatarra. Los resultados dependen del equipo, calibración, geometría, superficie y condiciones de medición.
+-   **LIBS:** utiliza un pulso láser para generar un pequeño plasma y analiza la luz emitida por los elementos presentes. Puede aportar información elemental con rapidez, pero depende de las condiciones
+    de adquisición, superficie y calibración.
+
+Estas técnicas requieren instrumentación especializada y procedimientos de medición. No debe atribuirse a RECONEXA una determinación química exacta si el diseño no incorpora una técnica de ese tipo ni ha sido
+validado para ello.
+
+### 2.5 Sistemas automatizados de clasificación
+
+Las instalaciones industriales pueden combinar cámaras, sensores electromagnéticos y otros sistemas con algoritmos de clasificación y mecanismos de separación. Además de la precisión, son importantes la velocidad de procesamiento, el rendimiento del flujo y la estabilidad frente a cambios en condiciones reales.
+
+La literatura reciente estudia el aprendizaje profundo para reconocer chatarra y apoyar su clasificación \[2\], \[3\]. También se han investigado modelos que estiman simultáneamente la masa y la clase de objetos a partir de datos visuales \[5\]. Los resultados de un estudio no deben generalizarse automáticamente a cualquier sistema: dependen delconjunto de datos, las clases definidas, el entorno y el procedimientode evaluación.
+
+## 3. Análisis crítico del estado del arte
+
+No existe una única técnica que resuelva todas las necesidades. La inspección visual y las cámaras aportan información sobre apariencia, pero no determinan directamente la composición química. Las mediciones de masa y dimensiones cuantifican propiedades físicas, aunque no distinguen por sí solas entre metales con características semejantes. Los sensores inductivos convencionales pueden detectar presencia metálica, pero no equivalen a un analizador de aleaciones.
+
+Los estudios sobre visión artificial y espectroscopia de inducción muestran que combinar fuentes de información puede mejorar la clasificación en escenarios específicos \[2\]--\[5\]. Sin embargo, el desempeño depende de las muestras, las clases, el equipo y el entorno de prueba. Antes de aplicar un método en otro contexto, debe evaluarse con muestras representativas.
+
+La distinción central es que **caracterización preliminar no equivale a identificación química exacta**. Una caracterización preliminar organiza datos observables y medibles; la confirmación elemental requiere
+técnicas y protocolos apropiados. La tecnología elegida debemcorresponder al nivel de certeza que se comunica al usuario.
+
+## 4. Relación con RECONEXA
+
+RECONEXA busca registrar información de muestras metálicas y facilitar
+su consulta posterior. La combinación propuesta puede generar una ficha
+inicial de cada muestra:
+
+-   **Masa:** cuantifica la cantidad de material.
+-   **Distancia o altura estimada:** aporta una característica geométrica.
+-   **Detección inductiva:** apoya la detección de presencia metálica, pero no confirma por sí sola si es cobre, aluminio o latón.
+-   **Imagen:** documenta el aspecto visible y podría apoyar una clasificación visual si se desarrolla y valida un modelo apropiado.
+-   **Registro digital:** organiza los resultados para consultarlos y compararlos.
+
+Cada variable describe una dimensión distinta de la muestra. No obstante, combinar mediciones no garantiza automáticamente una clasificación correcta. Será necesario definir el procedimiento, calibrar sensores, establecer criterios y evaluar el prototipo con muestras conocidas de cobre, aluminio y latón. La exactitud de la identificación debe demostrarse experimentalmente.
+
+Por tanto, RECONEXA se plantea como una herramienta de **caracterización preliminar y organización de información**, no como sustituto de XRF, LIBS u otros análisis de laboratorio. Si un proceso industrial requiere conocer la composición exacta, los resultados deberían complementarse con una técnica analítica adecuada.
+
+
+## Referencias
+
+\[1\] CAESAR Project, "Scrap characterization methods," 5 oct. 2024. https://caesarproject.eu/report-on-scrap-characterization-methods/.
+\[26-oct-2026\].
+
+\[2\] G. Koinig, N. Kuhn, T. Fink, B. Lorber, Y. Radmann, W. Martinelli y A. Tischberger-Aldrian, "Deep learning approaches for classification of copper-containing metal scrap in recycling processes," *Waste
+Management*, vol. 190, pp. 520--530, dic. 2024, doi: 10.1016/j.wasman.2024.10.022.
+
+\[3\] T. Jurtsch, J. Moryson y G. Wiczyński, "Machine vision-based detection of forbidden elements in the high-speed automatic scrap sorting line," *Waste Management*, vol. 189, pp. 243--253, dic. 2024,
+doi: 10.1016/j.wasman.2024.08.015.
+
+\[4\] K. Williams, M. O'Toole y A. Peyton, "Scrap metal classification using magnetic induction spectroscopy and machine vision,"Transactions on Instrumentation and Measurement*, vol. 72, art. no. 2520211, 2023, doi: 10.1109/TIM.2023.3284930.
+
+\[5\] D. J. Díaz-Romero *et al*., "Simultaneous mass estimation and class classification of scrap metals using deep learning," *Resources, Conservation and Recycling*, vol. 181, art. no. 106272, 2022, doi: 10.1016/j.resconrec.2022.106272.
 
