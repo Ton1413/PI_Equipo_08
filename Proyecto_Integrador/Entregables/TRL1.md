@@ -1,7 +1,7 @@
 # Estado del arte: métodos de caracterización de residuos metálicos
 ## 1. Introducción
 
-La caracterización de residuos metálicos permite reunir información útil para decidir cómo separar, almacenar, valorizar o reincorporar un material a otro proceso productivo. Puede incluir propiedades físicas como masa y dimensiones, características visuales y, cuando se necesita conocer la composición elemental o el tipo de aleación, análisis instrumentales especializados. La calidad de la chatarra depende tanto de su composición como de sus características físicas y de la presencia de materiales no deseados \[1\].
+La caracterización de residuos metálicos permite reunir información útil para decidir cómo separar, almacenar, valorizar o reincorporar un material a otro proceso productivo. Puede incluir propiedades físicas como masa y dimensiones, características visuales y, cuando se necesita conocer la composición elemental o el tipo de aleación, análisis instrumentales especializados. La calidad del material depende tanto de su composición como de sus características físicas y de la presencia de materiales no deseados \[1\].
 
 En la industria se emplean desde inspecciones visuales y mediciones físicas hasta tecnologías basadas en sensores, espectrometría y visión artificial. Estas técnicas no son equivalentes: algunas detectan presencia metálica o describen la forma, mientras que otras permiten estimar una clase de material o analizar su composición.
 
@@ -11,7 +11,7 @@ RECONEXA propone una caracterización **preliminar** de muestras metálicas: ini
 
 ### 2.1 Inspección visual y visión artificial
 
-La inspección visual permite observar color, forma, dimensiones aparentes, oxidación, estado superficial y contaminantes visibles. Es accesible y rápida, pero depende de la experiencia del observador. Elcolor por sí solo no confirma la identidad del metal: la iluminación, suciedad, recubrimientos, oxidación y aleaciones pueden cambiar su apariencia.
+La inspección visual permite observar color, forma, dimensiones aparentes, oxidación y estado superficial. Es accesible y rápida, pero depende de la experiencia del observador. El color por sí solo no confirma la identidad del metal: la iluminación, suciedad, recubrimientos, oxidación y aleaciones pueden cambiar su apariencia.
 
 La visión artificial emplea cámaras y algoritmos para extraer características y, si existe un modelo entrenado, clasificar objetos. Koinig et al. compararon veinte arquitecturas de redes neuronales convolucionales para clasificar chatarra con contenido de cobre a partir de imágenes RGB. Los resultados variaron según la arquitectura y el hardware disponible, mostrando potencial para utilizar cámaras de menor costo como apoyo a la clasificación \[2\]. Otro estudio aplicó visión artificial y aprendizaje automático para detectar elementos no permitidos en una línea de clasificación de chatarra basada en cobre, destacando la necesidad de evaluar el sistema en condiciones próximas a las reales \[3\].
 
@@ -28,7 +28,7 @@ Estas variables son útiles para inventariar materiales y comparar cantidades di
 
 Los sensores inductivos detectan objetos metálicos mediante la interacción entre un campo electromagnético y el material conductor. En una aplicación de proximidad, la salida indica presencia dentro de un rango de operación; por sí sola, no distingue con certeza entre cobre, aluminio y latón.
 
-Las técnicas más avanzadas basadas en inducción electromagnética pueden aportar información adicional. Williams, O'Toole y Peyton estudiaron la clasificación de chatarra mediante espectroscopia de inducción magnética combinada con visión artificial. Su investigación encontró que combinar información electromagnética y color podía mejorar la separación de ciertos flujos de residuos, aunque el resultado dependía de las características de las muestras \[4\].
+Las técnicas más avanzadas basadas en inducción electromagnética pueden aportar información adicional. Williams, O'Toole y Peyton estudiaron la clasificación estos residuos mediante espectroscopia de inducción magnética combinada con visión artificial. Su investigación encontró que combinar información electromagnética y color podía mejorar la separación de ciertos flujos de residuos, aunque el resultado dependía de las características de las muestras \[4\].
 
 Para RECONEXA es esencial distinguir entre **detectar que hay metal** y **estimar qué tipo de metal podría ser**. Un sensor inductivo deproximidad puede apoyar la detección de presencia metálica; una identificación más específica requiere señales discriminantes, calibración y validación con muestras conocidas.
 
@@ -37,19 +37,15 @@ Para RECONEXA es esencial distinguir entre **detectar que hay metal** y **estima
 Cuando se necesita conocer la composición elemental, pueden utilizarse técnicas como la fluorescencia de rayos X (XRF) y la espectrometría de emisión óptica por plasma inducido por láser (LIBS). Su propósito es
 distinto al de una cámara o un sensor de proximidad.
 
--   **XRF:** analiza la radiación característica emitida por una muestra  excitada con rayos X y permite estimar la presencia de determinados elementos. Se usa en identificación de aleaciones y clasificación de
-    chatarra. Los resultados dependen del equipo, calibración, geometría, superficie y condiciones de medición.
+-   **XRF:** analiza la radiación característica emitida por una muestra  excitada con rayos X y permite estimar la presencia de determinados elementos. Se usa en identificación de aleaciones y clasificación de este material. Los resultados dependen del equipo, calibración, geometría, superficie y condiciones de medición.
 -   **LIBS:** utiliza un pulso láser para generar un pequeño plasma y analiza la luz emitida por los elementos presentes. Puede aportar información elemental con rapidez, pero depende de las condiciones
     de adquisición, superficie y calibración.
-
-Estas técnicas requieren instrumentación especializada y procedimientos de medición. No debe atribuirse a RECONEXA una determinación química exacta si el diseño no incorpora una técnica de ese tipo ni ha sido
-validado para ello.
 
 ### 2.5 Sistemas automatizados de clasificación
 
 Las instalaciones industriales pueden combinar cámaras, sensores electromagnéticos y otros sistemas con algoritmos de clasificación y mecanismos de separación. Además de la precisión, son importantes la velocidad de procesamiento, el rendimiento del flujo y la estabilidad frente a cambios en condiciones reales.
 
-La literatura reciente estudia el aprendizaje profundo para reconocer chatarra y apoyar su clasificación \[2\], \[3\]. También se han investigado modelos que estiman simultáneamente la masa y la clase de objetos a partir de datos visuales \[5\]. Los resultados de un estudio no deben generalizarse automáticamente a cualquier sistema: dependen delconjunto de datos, las clases definidas, el entorno y el procedimientode evaluación.
+Este estudio recientemente menciona el aprendizaje profundo para reconocer y apoyar su clasificación \[2\], \[3\]. También se han investigado modelos que estiman simultáneamente la masa y la clase de objetos a partir de datos visuales \[5\]. Los resultados de un estudio no deben generalizarse automáticamente a cualquier sistema: dependen del conjunto de datos, las clases definidas, el entorno y el procedimiento de evaluación.
 
 ## 3. Análisis crítico del estado del arte
 
@@ -57,14 +53,9 @@ No existe una única técnica que resuelva todas las necesidades. La inspección
 
 Los estudios sobre visión artificial y espectroscopia de inducción muestran que combinar fuentes de información puede mejorar la clasificación en escenarios específicos \[2\]--\[5\]. Sin embargo, el desempeño depende de las muestras, las clases, el equipo y el entorno de prueba. Antes de aplicar un método en otro contexto, debe evaluarse con muestras representativas.
 
-La distinción central es que **caracterización preliminar no equivale a identificación química exacta**. Una caracterización preliminar organiza datos observables y medibles; la confirmación elemental requiere
-técnicas y protocolos apropiados. La tecnología elegida debemcorresponder al nivel de certeza que se comunica al usuario.
+## 4. RECONEXA
 
-## 4. Relación con RECONEXA
-
-RECONEXA busca registrar información de muestras metálicas y facilitar
-su consulta posterior. La combinación propuesta puede generar una ficha
-inicial de cada muestra:
+RECONEXA busca registrar información de muestras metálicas y facilitar su consulta posterior. La combinación propuesta puede generar una ficha inicial de cada muestra:
 
 -   **Masa:** cuantifica la cantidad de material.
 -   **Distancia o altura estimada:** aporta una característica geométrica.
@@ -74,7 +65,7 @@ inicial de cada muestra:
 
 Cada variable describe una dimensión distinta de la muestra. No obstante, combinar mediciones no garantiza automáticamente una clasificación correcta. Será necesario definir el procedimiento, calibrar sensores, establecer criterios y evaluar el prototipo con muestras conocidas de cobre, aluminio y latón. La exactitud de la identificación debe demostrarse experimentalmente.
 
-Por tanto, RECONEXA se plantea como una herramienta de **caracterización preliminar y organización de información**, no como sustituto de XRF, LIBS u otros análisis de laboratorio. Si un proceso industrial requiere conocer la composición exacta, los resultados deberían complementarse con una técnica analítica adecuada.
+Por tanto, RECONEXA se plantea como una herramienta de **caracterización preliminar y organización de información**, no como sustituto de XRF, LIBS u otros análisis de laboratorio. Si un proceso industria requiere conocer la composición exacta, los resultados deberían complementarse con una técnica analítica adecuada.
 
 
 ## Referencias
