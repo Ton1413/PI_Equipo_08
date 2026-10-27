@@ -54,20 +54,20 @@ No existe una única técnica que resuelva todas las necesidades. La inspección
 Los estudios sobre visión artificial y espectroscopia de inducción muestran que combinar fuentes de información puede mejorar la clasificación en escenarios específicos \[2\]--\[5\]. Sin embargo, el desempeño depende de las muestras, las clases, el equipo y el entorno de prueba. Antes de aplicar un método en otro contexto, debe evaluarse con muestras representativas.
 ## 4. Sensores y sistemas de medición para residuos metálicos
 
-Los sensores y sistemas de medición permiten conocer algunas características de los residuos metálicos, como su peso, tamaño y tipo de material. Cada tecnología cumple una función diferente: por ejemplo, las celdas de carga miden el peso, los sensores inductivos detectan la presencia de metales y las cámaras permiten observar la forma y apariencia de las piezas [1], [2]. 
+Los sensores y sistemas de medición permiten conocer algunas características de los residuos metálicos, como su peso, tamaño y tipo de material. Cada tecnología cumple una función diferente: por ejemplo, las celdas de carga miden el peso, los sensores inductivos detectan la presencia de metales y las cámaras permiten observar la forma y apariencia de las piezas [6], [7]. 
 
-La elección de estos dispositivos depende del tipo de residuo que se desea identificar, la precisión necesaria y el costo del sistema. Por ello, combinar diferentes sensores puede ayudar a obtener más información y mejorar la clasificación de los materiales. Sin embargo, es importante considerar que detectar un metal no significa necesariamente conocer si es cobre, aluminio o latón [3].
-En RECONEXA se utilizan diferentes tecnologías para reunir estos datos y apoyar la clasificación de los materiales. Cada dispositivo cumple una función específica, por lo que es importante conocer sus características y limitaciones [1]–[5].
+La elección de estos dispositivos depende del tipo de residuo que se desea identificar, la precisión necesaria y el costo del sistema. Por ello, combinar diferentes sensores puede ayudar a obtener más información y mejorar la clasificación de los materiales. Sin embargo, es importante considerar que detectar un metal no significa necesariamente conocer si es cobre, aluminio o latón [8].
+En RECONEXA se utilizan diferentes tecnologías para reunir estos datos y apoyar la clasificación de los materiales. Cada dispositivo cumple una función específica, por lo que es importante conocer sus características y limitaciones [9]–[10].
 
 **Tabla 1. Sensores utilizados en el proyecto RECONEXA**
 
 | Sensor o dispositivo | Función principal | Aplicación en RECONEXA |
 |---|---|---|
-| XIAO ESP32-S3 Sense con cámara OV3660 [1] | Capturar imágenes y procesar información; cuenta con Wi-Fi, BLE y micrófono. | Registrar la apariencia de los residuos y permitir la comunicación del sistema. |
-| Sensor inductivo de dos canales LDC1612 [2] | Medir cambios de inductancia relacionados con objetos metálicos. | Obtener señales que ayuden a diferenciar características de los metales. |
-| Celda de carga (sensor de peso) [3] | Medir el peso de los objetos. | Registrar la masa de los residuos metálicos. |
-| Sensor de efecto Hall [4] | Detectar campos magnéticos. | Identificar respuestas magnéticas que complementen la caracterización. |
-| Sensor de distancia ToF VL53L0X [5] | Medir la distancia mediante el tiempo de vuelo de la luz. | Estimar la distancia y las dimensiones aproximadas de los residuos. |
+| XIAO ESP32-S3 Sense con cámara OV3660 [6] | Capturar imágenes y procesar información; cuenta con Wi-Fi, BLE y micrófono. | Registrar la apariencia de los residuos y permitir la comunicación del sistema. |
+| Sensor inductivo de dos canales LDC1612 [7] | Medir cambios de inductancia relacionados con objetos metálicos. | Obtener señales que ayuden a diferenciar características de los metales. |
+| Celda de carga (sensor de peso) [8] | Medir el peso de los objetos. | Registrar la masa de los residuos metálicos. |
+| Sensor de efecto Hall [9] | Detectar campos magnéticos. | Identificar respuestas magnéticas que complementen la caracterización. |
+| Sensor de distancia ToF VL53L0X [10] | Medir la distancia mediante el tiempo de vuelo de la luz. | Estimar la distancia y las dimensiones aproximadas de los residuos. |
 
 La combinación de estos dispositivos permite obtener información complementaria de cada residuo. La cámara registra su apariencia, la celda de carga mide su peso, el VL53L0X estima distancias y los sensores inductivo y Hall aportan información sobre sus propiedades electromagnéticas y magnéticas. En conjunto, estas mediciones pueden apoyar la clasificación de los metales, aunque es necesario evaluar los resultados con muestras conocidas para comprobar su capacidad de diferenciación.
 ## 5. RECONEXA
@@ -97,6 +97,10 @@ Management*, vol. 190, pp. 520--530, dic. 2024, doi: 10.1016/j.wasman.2024.10.
 doi: 10.1016/j.wasman.2024.08.015.
 
 \[4\] K. Williams, M. O'Toole y A. Peyton, "Scrap metal classification using magnetic induction spectroscopy and machine vision,"Transactions on Instrumentation and Measurement*, vol. 72, art. no. 2520211, 2023, doi: 10.1109/TIM.2023.3284930.
-
 \[5\] D. J. Díaz-Romero *et al*., "Simultaneous mass estimation and class classification of scrap metals using deep learning," *Resources, Conservation and Recycling*, vol. 181, art. no. 106272, 2022, doi: 10.1016/j.resconrec.2022.106272.
+[6] Seeed Studio, “Getting Started with Seeed Studio XIAO ESP32-S3,” *Seeed Studio Wiki*. [En línea]. Disponible en: https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/
+[7] National Instruments, “Measuring Load with Bridge-Based Sensors.” [En línea]. Disponible en: https://www.ni.com/en/shop/data-acquisition/sensor-fundamentals/measuring-load-with-bridge-based-sensors.html
+[8] Texas Instruments, “What Is a Hall-Effect Sensor?” [En línea]. Disponible en: https://www.ti.com/document-viewer/lit/html/SSZT164
+[9] STMicroelectronics, “VL53L0X: Time-of-Flight Ranging Sensor.” [En línea]. Disponible en: https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html
+\[10\] D. J. Díaz-Romero *et al*., "Simultaneous mass estimation and class classification of scrap metals using deep learning," *Resources, Conservation and Recycling*, vol. 181, art. no. 106272, 2022, doi: 10.1016/j.resconrec.2022.106272.
 
