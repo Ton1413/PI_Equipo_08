@@ -97,10 +97,16 @@ Management*, vol. 190, pp. 520--530, dic. 2024, doi: 10.1016/j.wasman.2024.10.
 doi: 10.1016/j.wasman.2024.08.015.
 
 \[4\] K. Williams, M. O'Toole y A. Peyton, "Scrap metal classification using magnetic induction spectroscopy and machine vision,"Transactions on Instrumentation and Measurement*, vol. 72, art. no. 2520211, 2023, doi: 10.1109/TIM.2023.3284930.
+
 \[5\] D. J. Díaz-Romero *et al*., "Simultaneous mass estimation and class classification of scrap metals using deep learning," *Resources, Conservation and Recycling*, vol. 181, art. no. 106272, 2022, doi: 10.1016/j.resconrec.2022.106272.
+
 [6] Seeed Studio, “Getting Started with Seeed Studio XIAO ESP32-S3,” *Seeed Studio Wiki*. [En línea]. Disponible en: https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/
+
 [7] National Instruments, “Measuring Load with Bridge-Based Sensors.” [En línea]. Disponible en: https://www.ni.com/en/shop/data-acquisition/sensor-fundamentals/measuring-load-with-bridge-based-sensors.html
+
 [8] Texas Instruments, “What Is a Hall-Effect Sensor?” [En línea]. Disponible en: https://www.ti.com/document-viewer/lit/html/SSZT164
+
 [9] STMicroelectronics, “VL53L0X: Time-of-Flight Ranging Sensor.” [En línea]. Disponible en: https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html
+
 \[10\] D. J. Díaz-Romero *et al*., "Simultaneous mass estimation and class classification of scrap metals using deep learning," *Resources, Conservation and Recycling*, vol. 181, art. no. 106272, 2022, doi: 10.1016/j.resconrec.2022.106272.
 
