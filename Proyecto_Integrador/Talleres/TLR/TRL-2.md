@@ -11,7 +11,7 @@ La propuesta aborda la necesidad de disponer de información sobre residuos met�
 Su aplicación prevista comprende la caracterización preliminar de pequeñas muestras metálicas y el registro de información útil para vincular la oferta de materiales con potenciales usuarios industriales. La precisión de clasificación y la viabilidad de redistribución requieren comprobaciones posteriores.
 ## 6. Matriz morfológica y selección de alternativas
 
-Figura 3. Matriz morfológica de 17 subfunciones y tres alternativas por subfunción. Fuente: elaboración del equipo RECONEXA . Las celdas verdes indican alternativas seleccionadas en la matriz.
+Figura 3. Matriz morfológica. Fuente: elaboración del equipo RECONEXA .
 
 La matriz reúne alternativas para la recepción de la muestra, inicio del ciclo, medición, procesamiento, clasificación, comunicaciones, almacenamiento, visualización, alimentación y protección física. Constituye evidencia de la evaluación conceptual de soluciones técnicas. Las alternativas reflejan la etapa de diseño y no equivalen a una lista de componentes experimentalmente validados.
 ## 7. Bocetos conceptuales
