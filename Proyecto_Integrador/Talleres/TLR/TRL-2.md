@@ -10,6 +10,7 @@ La propuesta aborda la necesidad de disponer de información sobre residuos met�
 
 Su aplicación prevista comprende la caracterización preliminar de pequeñas muestras metálicas y el registro de información útil para vincular la oferta de materiales con potenciales usuarios industriales. La precisión de clasificación y la viabilidad de redistribución requieren comprobaciones posteriores.
 ## 6. Matriz morfológica y selección de alternativas
+<img width="2563" height="8284" alt="649838340-8cabfea4-3fb6-46f6-9e46-c166249f5e75" src="https://github.com/user-attachments/assets/69661b5e-d323-4b8b-899d-c973fd82bdda" />
 
 Figura 3. Matriz morfológica. Fuente: elaboración del equipo RECONEXA .
 
