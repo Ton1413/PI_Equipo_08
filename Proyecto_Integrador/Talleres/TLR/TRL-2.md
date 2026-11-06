@@ -22,6 +22,7 @@ Alternativa compacta con brazo articulado	Alternativa horizontal de sobremesa
 Figura 4. Alternativas de configuración conceptual. Fuente: elaboración del equipo RECONEXA . Los elementos rotulados en cada boceto representan alternativas de diseño y no necesariamente la configuración final de componentes.
 ## 8. Modelado tridimensional
 Vista isométrica	Vista frontal	Vista superior
+<img width="756" height="710" alt="image" src="https://github.com/user-attachments/assets/86cb7d8b-5a0e-425c-aa37-c5b589dc85e6" />
 		
 
 
