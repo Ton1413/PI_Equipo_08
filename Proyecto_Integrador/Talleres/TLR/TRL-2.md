@@ -51,18 +51,66 @@ RECONEXA (2026)	Integra conceptualmente las funciones anteriores.	Diseño propio
 
 Tabla 1. Comparación de antecedentes con el concepto tecnológico RECONEXA. Los enlaces conducen a las figuras publicadas por sus titulares; la imagen de RECONEXA es del equipo.
 ## 11. Análisis preliminar de patentabilidad y protección
-El análisis de antecedentes identifica tecnologías preexistentes de clasificación de residuos, visión y medición inductiva. Estas coincidencias funcionales forman parte del estado del arte y delimitan los elementos que requieren un examen más detallado de novedad y actividad inventiva.
 
-La propuesta de RECONEXA combina caracterización preliminar de metales, estructura de sobremesa y registro de información para redistribución. Esta combinación describe el concepto del proyecto, pero no constituye por sí sola evidencia de patentabilidad. Tampoco demuestra libertad de operación frente a derechos vigentes de terceros.
+RECONEXA identificó la patente **WO2024207048A1**, relacionada con la detección y clasificación de residuos [3]. También se encontraron tecnologías similares que utilizan cámaras y sensores inductivos.
 
-La documentación de diseño, la identificación de autoría y la revisión de reivindicaciones de patentes forman parte de la consideración de propiedad intelectual desde el TRL 2.
-## 12. Resultado del TRL 2
-RECONEXA presenta un concepto tecnológico formulado mediante el perfil de proyecto, la caja negra, el esquema funcional, la matriz morfológica, los bocetos y el modelado 3D. El estado del arte identifica antecedentes científicos directamente relacionados y un documento de patente pertinente para la comparación funcional y el análisis preliminar de propiedad intelectual.
+Nuestra propuesta combina la caracterización de metales, una estructura de sobremesa y el registro digital para facilitar su redistribución. Sin embargo, esta combinación no garantiza que sea patentable, por lo que aún debe evaluarse su novedad.
 
-Estas evidencias corresponden a la formulación de la propuesta tecnológica (TRL 2). Las pruebas de sensores individuales corresponden al TRL 3 y la validación del sistema integrado en laboratorio corresponde al TRL 4.
-## 13. Referencias (formato IEEE)
+Actualmente, RECONEXA no cuenta con una patente propia acreditada. Esto representa un riesgo de copia de sus elementos innovadores. Además, se identificó la necesidad de definir la autoría y revisar las patentes existentes para evitar posibles conflictos legales.
+
+## 12. Riesgos de propiedad intelectual
+
+| Riesgo identificado | Consecuencia |
+|---|---|
+| Falta de patente propia | Posible copia de la innovación. |
+| Existencia de patentes similares | Posibles conflictos legales. |
+| Falta de registro de marca | Uso del nombre RECONEXA por terceros. |
+| Falta de acuerdos sobre la propiedad | Conflictos entre los titulares del proyecto. |
+
+Estos riesgos forman parte de las barreras identificadas para el futuro escalamiento de RECONEXA.
+
+## 13. Normas y regulaciones identificadas
+
+RECONEXA identifica las siguientes normas y regulaciones relacionadas con su desarrollo y futura comercialización.
+
+| Norma o regulación | Aplicación en RECONEXA |
+|---|---|
+| ISO 16290:2013 | Evaluación de la madurez tecnológica. |
+| ISO 31000:2018 | Gestión de riesgos del proyecto. |
+| ISO 9001:2015 | Control de calidad del sistema. |
+| ISO 14001:2015 | Gestión de impactos ambientales. |
+| ISO 45001:2018 | Seguridad durante la operación. |
+| D. Leg. N.° 1278 | Gestión de residuos sólidos en Perú. |
+| Decisión Andina 486 | Protección de la propiedad industrial. |
+
+Estas referencias forman parte de los requisitos identificados desde TRL 2. Su aplicación específica corresponde a las siguientes etapas de desarrollo.
+
+## 14. Resultado del TRL 2
+
+RECONEXA cuenta con una propuesta tecnológica definida mediante la matriz morfológica, los bocetos, el modelado 3D y el análisis de antecedentes científicos.
+
+Se identificó una patente relacionada con la clasificación de residuos, cuatro riesgos de propiedad intelectual y siete referencias normativas para el futuro escalamiento.
+
+Estas evidencias corresponden a la formulación conceptual de RECONEXA y sirven como base para continuar su desarrollo tecnológico.
+
+## 15. Referencias bibliográficas (IEEE)
+
 [1] “Multilayer Hybrid Deep-Learning Method for Waste Classification and Recycling,” 2018. [En línea]. Disponible: https://pmc.ncbi.nlm.nih.gov/articles/PMC6236983/
 
-[2] M. Kutila et al., “Scrap metal sorting with colour vision and inductive sensor array,” 2005. [En línea]. Disponible: https://cris.vtt.fi/en/publications/scrap-metal-sorting-with-colour-vision-and-inductive-sensor-array/
+[2] M. Kutila et al., “Scrap Metal Sorting with Colour Vision and Inductive Sensor Array,” 2005. [En línea]. Disponible: https://cris.vtt.fi/en/publications/scrap-metal-sorting-with-colour-vision-and-inductive-sensor-array/
 
-[3] “Waste sorting method and apparatus,” WO2024207048A1, 2024. [En línea]. Disponible: https://patents.google.com/patent/WO2024207048A1/en
+[3] “Waste Sorting Method and Apparatus,” patente WO2024207048A1, 2024. [En línea]. Disponible: https://patents.google.com/patent/WO2024207048A1/en
+
+[4] ISO, *ISO 16290:2013, Space systems—Definition of the Technology Readiness Levels (TRLs) and their criteria of assessment*, 2013.
+
+[5] ISO, *ISO 31000:2018, Risk management—Guidelines*, 2018.
+
+[6] ISO, *ISO 9001:2015, Quality management systems—Requirements*, 2015.
+
+[7] ISO, *ISO 14001:2015, Environmental management systems—Requirements with guidance for use*, 2015.
+
+[8] ISO, *ISO 45001:2018, Occupational health and safety management systems—Requirements with guidance for use*, 2018.
+
+[9] Perú, *Decreto Legislativo N.° 1278, Ley de Gestión Integral de Residuos Sólidos*, 2016.
+
+[10] Comunidad Andina, *Decisión 486, Régimen Común sobre Propiedad Industrial*, 2000.
