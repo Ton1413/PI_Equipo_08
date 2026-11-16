@@ -11,23 +11,25 @@ El equipo RECONEXA realizó pruebas individuales de componentes electrónicos ut
 
 Se conectó el sensor Hall al Arduino UNO para comprobar su respuesta ante un campo magnético. En el monitor serial se registraron valores digitales de **0 y 1**, que muestran cambios en la señal del sensor.
 
-![Conexión del sensor Hall](imagenes/sensor_hall.jpg)
-
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/f541a12a-d1ad-4e6f-a2d2-252a447dcea6" />
 **Figura 1.** Conexión del sensor Hall al Arduino UNO.
 
-![Resultados del sensor Hall](imagenes/resultados_hall.jpg)
+
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/25f2966d-0562-4e3d-ba55-ccec7b720958" />
+
 
 **Figura 2.** Registro de valores digitales 0 y 1 en Arduino IDE.
-
 ### 2.2. Prueba del sensor de distancia VL53L0X
 
-Se utilizó el sensor VL53L0X para medir distancias. En el monitor serial se observaron valores entre **84 y 117 mm**, equivalentes a **8,4 y 11,7 cm**.
+Se utilizó el sensor VL53L0X para medir distancias. En el monitor serial se observaron valores entre **84 y 112 mm**, equivalentes a **8,4 y 11,20 cm**.
 
-![Prueba del sensor VL53L0X](imagenes/sensor_distancia.jpg)
+<img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/63fe80fa-89c2-4576-8ac6-8b53fa2e9d9f" />
+
 
 **Figura 3.** Prueba del sensor de distancia mediante Arduino UNO.
 
-![Resultados de distancia](imagenes/resultados_distancia.jpg)
+<img width="1536" height="864" alt="imagen" src="https://github.com/user-attachments/assets/bc563ec3-12d3-4e19-80ab-62db629167f3" />
+
 
 **Figura 4.** Lecturas de distancia registradas en Arduino IDE.
 
@@ -35,7 +37,8 @@ Se utilizó el sensor VL53L0X para medir distancias. En el monitor serial se obs
 
 Se realizó la conexión inicial de la celda de carga con el módulo electrónico y el Arduino UNO. La fotografía muestra el montaje físico utilizado para preparar las pruebas de pesaje.
 
-![Montaje de celda de carga](imagenes/celda_carga.jpg)
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/a48913d8-a2a9-41a2-ac9e-f0c17a4a8f4d" />
+
 
 **Figura 5.** Montaje inicial de la celda de carga.
 
@@ -43,11 +46,12 @@ Se realizó la conexión inicial de la celda de carga con el módulo electrónic
 
 Se programó una pantalla TFT de **128 × 160 píxeles** mediante Arduino IDE. Se realizaron pruebas de visualización de colores y texto, mostrando el mensaje **"HOLA!"** junto con la identificación del Arduino UNO.
 
-![Código de pantalla TFT](imagenes/codigo_tft.jpg)
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/6cc28ec1-84c1-4dd8-9707-a65f0387b5b4" />
+
 
 **Figura 6.** Programación de la pantalla TFT en Arduino IDE.
 
-![Resultado de pantalla TFT](imagenes/pantalla_tft.jpg)
+<img width="1152" height="1536" alt="image" src="https://github.com/user-attachments/assets/67e54a82-1501-45a1-a019-5bd8ae2a54f3" />
 
 **Figura 7.** Visualización del mensaje de prueba en pantalla TFT.
 
