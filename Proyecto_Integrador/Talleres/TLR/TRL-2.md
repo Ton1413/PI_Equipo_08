@@ -18,7 +18,8 @@ La matriz reúne alternativas para la recepción de la muestra, inicio del ciclo
 ## 7. Bocetos conceptuales
 Alternativa compacta con brazo articulado	Alternativa horizontal de sobremesa
 	
-<img width="1424" height="847" alt="image" src="https://github.com/user-attachments/assets/39882d50-7d89-4be3-84d6-5b2a5fb97405" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5d403ee3-168f-4862-a4b4-b017334c99a1" />
+
 
 
 Figura 4. Alternativas de configuración conceptual. Fuente: elaboración del equipo RECONEXA . Los elementos rotulados en cada boceto representan alternativas de diseño y no necesariamente la configuración final de componentes.
