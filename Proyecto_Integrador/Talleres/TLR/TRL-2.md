@@ -15,14 +15,20 @@ Su aplicación prevista comprende la caracterización preliminar de pequeñas mu
 Figura 3. Matriz morfológica. Fuente: elaboración del equipo RECONEXA .
 
 La matriz reúne alternativas para la recepción de la muestra, inicio del ciclo, medición, procesamiento, clasificación, comunicaciones, almacenamiento, visualización, alimentación y protección física. Constituye evidencia de la evaluación conceptual de soluciones técnicas. Las alternativas reflejan la etapa de diseño y no equivalen a una lista de componentes experimentalmente validados.
-## 7. Bocetos conceptuales
-Alternativa compacta con brazo articulado	Alternativa horizontal de sobremesa
+
+## 7. Boceto 
+Esta propuesta presenta un diseño en el que los componentes electrónicos y sensores se distribuyen sobre una estructura que permite realizar la caracterización preliminar de muestras metálicas.
+
+El sistema cuenta con una plataforma de pesaje conectada a una celda de carga, encargada de medir la masa de la muestra, mientras que el módulo HX711 permite procesar la señal obtenida. Asimismo, incorpora un sensor ToF, ubicado en la parte superior mediante un brazo de soporte, para estimar la distancia hacia la muestra, y un sensor inductivo para detectar la presencia de materiales metálicos.
+
+Los datos obtenidos son procesados mediante un microcontrolador ESP32, ubicado dentro de un gabinete que también integra una pantalla LCD para visualizar las mediciones y un botón de inicio para activar el sistema.
+
+Esta configuración busca optimizar el espacio, facilitar la integración de los componentes y permitir una operación sencilla, constituyendo una alternativa conceptual para el desarrollo del prototipo RECONEXA.
 	
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5d403ee3-168f-4862-a4b4-b017334c99a1" />
 
+Figura 4. Boceto de la alternativa compacta del sistema RECONEXA, con plataforma de pesaje, sensores de caracterización y gabinete de control electrónico. Fuente: elaboración propia.
 
-
-Figura 4. Alternativas de configuración conceptual. Fuente: elaboración del equipo RECONEXA . Los elementos rotulados en cada boceto representan alternativas de diseño y no necesariamente la configuración final de componentes.
 ## 8. Modelado tridimensional
 Vista isométrica	Vista frontal	Vista superior
 <img width="755" height="633" alt="image" src="https://github.com/user-attachments/assets/6db230e3-3f61-4c9e-8146-86473e6d9726" />
