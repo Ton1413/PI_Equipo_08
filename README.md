@@ -9,7 +9,9 @@
 <img width="960" height="540" alt="reconexa_simulacion_conceptual(1)" src="https://github.com/user-attachments/assets/4023b18e-5cb5-4a6a-b063-0eec3c99aad1" />
 
 <h3 align="center">
-Sistema de caracterización y redistribución de residuos industriales
+Sistema de caracterización premilinar multisensor y redistribución de residuos industriales.
+
+
 </h3>
 
 <p align="center">
